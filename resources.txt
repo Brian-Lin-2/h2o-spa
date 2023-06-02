@@ -1,0 +1,21 @@
+Fonts:
+Karla and Verdana
+
+<img src="./images/giftcard.jpg">
+<img src="./images/hero.jpeg">
+<img src="./images/hero-2.jpeg">
+<img src="./images/logo.png">
+<img src="./images/place.jpeg">
+<img src="./images/place-2.jpeg">
+<img src="./images/place-3.jpeg">
+<img src="./images/services/facial.jpeg">
+<img src="./images/services/filing.jpeg">
+<img src="./images/services/kids.jpeg">
+<img src="./images/services/massage.jpeg">
+<img src="./images/services/nails.jpeg">
+<img src="./images/services/waxing.jpeg">
+<img src="./images/specials/special.jpeg">
+<img src="./images/specials/special-2.jpeg">
+<img src="./images/specials/special-3.jpeg">
+<img src="./images/specials/special-4.jpeg">
+<img src="./images/specials/special-5.jpeg">
