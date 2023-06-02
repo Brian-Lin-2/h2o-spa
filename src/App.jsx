@@ -1,9 +1,11 @@
 import Header from "./components/Header";
+import Intro from "./components/Intro";
 
 export default function App() {
   return (
-    <div className="min-h-screen px-32 bg-white-1">
+    <div className="bg-white-1 px-32">
       <Header />
+      <Intro />
     </div>
   );
 }

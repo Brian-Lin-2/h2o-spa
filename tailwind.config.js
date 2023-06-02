@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "white-1": "hsl(0, 0%, 98%)",
+        "semi-white": "hsla(0, 0%, 100%, 90%)",
       },
       fontFamily: {
         karla: ["Karla", "sans-serif"],
