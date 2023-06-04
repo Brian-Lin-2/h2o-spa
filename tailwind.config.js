@@ -10,6 +10,7 @@ export default {
       },
       fontFamily: {
         karla: ["Karla", "sans-serif"],
+        verdana: ["verdana", "sans-serif"],
       },
       backgroundImage: {
         hero: "url(./images/hero-2.jpeg)",
