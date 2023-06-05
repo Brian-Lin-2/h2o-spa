@@ -1,19 +1,24 @@
 export default function Footer() {
   return (
-    <div className="bg-black text-white px-32 py-12">
+    <div className="bg-black text-white text-sm px-32 py-12">
       <img />
       <div>
         <div>
           <i></i>
-          <p>Location</p>
+          <a>302 Sunrise Highway Rockville Centre, NY 11570</a>
+        </div>
+        <h2 className="mt-4 mb-1">Contact Us</h2>
+        <div>
+          <i></i>
+          <p>516-766-2576</p>
         </div>
         <div>
           <i></i>
-          <p>Phone Number</p>
+          <p>h2ospallc@gmail.com</p>
         </div>
-        <div>
+        <div className="mt-4">
           <i></i>
-          <p>Facebook</p>
+          <a>Like Us On Facebook!</a>
         </div>
       </div>
     </div>

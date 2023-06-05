@@ -6,7 +6,6 @@ export default function Heading() {
         <a>Home</a>
         <a>About</a>
         <a>Services</a>
-        <a>Spa Special</a>
         <a>Contact Us</a>
       </h1>
     </div>
