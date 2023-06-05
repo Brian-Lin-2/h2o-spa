@@ -1,4 +1,4 @@
-import Heading from "./home-page/Heading";
+import Heading from "../Heading";
 
 export default function Header() {
   return (

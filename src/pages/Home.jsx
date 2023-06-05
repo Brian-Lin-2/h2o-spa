@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import Header from "../components/home-page/Header";
 import Info from "../components/home-page/Info";
 import About from "../components/home-page/About";
 import Services from "../components/home-page/Services";
@@ -7,13 +7,13 @@ import Footer from "../components/Footer";
 
 export default function HomePage() {
   return (
-    <div className="bg-white-1">
+    <>
       <Header />
       <Info />
       <About />
       <Services />
       <Gift />
       <Footer />
-    </div>
+    </>
   );
 }
