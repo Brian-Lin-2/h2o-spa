@@ -54,16 +54,15 @@ export default function About() {
         <img className="w-1/3 border ml-20" src="./images/place.jpeg"></img>
       </div>
 
-      <div className="flex flex-col mx-32 items-center">
+      <div className="flex flex-col my-32 items-center">
         <h3 className="font-karla text-3xl font-bold my-8">Services</h3>
-        <div className="grid grid-cols-2 grid-rows-2 justify-center border">
+        <div className="grid grid-cols-2 grid-rows-2 justify-center border gap-32">
           {services.map((service) => {
             return (
               <Card
                 key={crypto.randomUUID()}
                 icon={service.icon}
                 header={service.header}
-                text={service.text}
               />
             );
           })}
