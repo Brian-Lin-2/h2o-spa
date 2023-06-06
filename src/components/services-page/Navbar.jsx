@@ -14,9 +14,7 @@ export default function Navbar() {
       </h1>
 
       <div className="flex">
-        <div className="w-11/12 border">
-          <KidMenu />
-        </div>
+        <div className="w-11/12 border"></div>
 
         <div className="flex flex-col gap-5 border font-karla text-lg">
           <a>Manicure</a>
