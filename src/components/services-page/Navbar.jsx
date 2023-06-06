@@ -15,7 +15,7 @@ export default function Navbar() {
 
       <div className="flex">
         <div className="w-11/12 border">
-          <Massage />
+          <Special />
         </div>
 
         <div className="flex flex-col gap-5 border font-karla text-lg">
