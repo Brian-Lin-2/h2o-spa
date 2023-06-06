@@ -5,7 +5,7 @@ import Services from "./pages/Services";
 export default function App() {
   return (
     <div className="bg-white-1">
-      <About />
+      <Services />
     </div>
   );
 }

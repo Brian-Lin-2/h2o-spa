@@ -3,6 +3,7 @@ export default function Footer() {
     <div className="bg-black text-white text-sm px-32 py-12">
       <img />
       <div>
+        <h1 className="mb-4">H2O Nail & Spa</h1>
         <div>
           <i></i>
           <a>302 Sunrise Highway Rockville Centre, NY 11570</a>
