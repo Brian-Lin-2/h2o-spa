@@ -18,7 +18,7 @@ export default function Special() {
       ],
     },
     {
-      service: "FUll Day Spa",
+      service: "Full Day Spa",
       time: "3 hours 30 minutes",
       cost: "230",
       desc: [
@@ -30,17 +30,35 @@ export default function Special() {
     },
   ];
 
+  const treatment = [
+    { service: "Ear Candle Therapy", cost: "40" },
+    { service: "Eyelash Extension", cost: "45 / 120" },
+    { service: "Eyelash Fill", cost: "60" },
+    { service: "Eyebrow Tint", cost: "25" },
+    { service: "Eyelash Tint", cost: "30" },
+  ];
+
   return (
     <div>
-      {spa.map((spa) => {
+      <h2>Spa Special</h2>
+      {spa.map((type) => {
         return (
           <div className="mb-4" key={crypto.randomUUID()}>
-            <h5>{spa.service + " " + spa.cost}</h5>
+            <h5>{type.service + " " + type.cost}</h5>
             <ol className="ml-2">
-              {spa.desc.map((point) => {
+              {type.desc.map((point) => {
                 return <li key={crypto.randomUUID()}>{point}</li>;
               })}
             </ol>
+          </div>
+        );
+      })}
+
+      <h2 className="mt-4">Special Treatment</h2>
+      {treatment.map((type) => {
+        return (
+          <div key={crypto.randomUUID()}>
+            <h5>{type.service + " " + type.cost}</h5>
           </div>
         );
       })}
