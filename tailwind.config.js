@@ -4,9 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        "white-1": "hsl(0, 0%, 98%)",
-        "semi-white": "hsla(0, 0%, 100%, 90%)",
-        "semi-black": "hsla(0, 100%, 0%, 75%)",
+        "gray-1": "rgb(177, 182, 186)",
+        "blue-1": "rgb(240, 252, 254)",
+        "blue-2": "rgb(220, 248, 254)",
+        "blue-3": "rgb(84, 183, 234)",
+        "blackish-blue": "rgb(22, 41, 62)",
+        "navy-blue": "rgb(24, 48, 74)",
       },
       fontFamily: {
         karla: ["Karla", "sans-serif"],
@@ -14,6 +17,9 @@ export default {
       },
       backgroundImage: {
         hero: "url(./images/hero-2.jpeg)",
+      },
+      width: {
+        mobile: "375px",
       },
     },
   },
