@@ -4,31 +4,31 @@ export default function Services() {
   const services = [
     {
       service: "Manicure",
-      image: "",
+      image: "bg-manicure bg-center",
     },
     {
       service: "Pedicure",
-      image: "",
+      image: "bg-pedicure bg-center",
     },
     {
       service: "Massage",
-      image: "",
+      image: "bg-massage bg-center",
     },
     {
       service: "Facial",
-      image: "",
+      image: "bg-facial",
     },
     {
       service: "Waxing",
-      image: "",
+      image: "bg-waxing bg-center",
     },
     {
       service: "Spa Special",
-      image: "",
+      image: "bg-special bg-center",
     },
     {
       service: "Kid's Menu",
-      image: "",
+      image: "bg-kids bg-center",
     },
   ];
 
@@ -36,7 +36,15 @@ export default function Services() {
     <div className="flex flex-col items-center mt-20 gap-8 font-karla text-center">
       <h1 className="text-3xl font-bold">Services</h1>
       <li className="grid gap-3">
-        <Card />
+        {services.map((service) => {
+          return (
+            <Card
+              key={crypto.randomUUID()}
+              service={service.service}
+              image={service.image}
+            />
+          );
+        })}
       </li>
       <button className="border py-3 px-6 bg-blue-3 text-white font-bold rounded-full">
         See All Services

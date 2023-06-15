@@ -4,7 +4,7 @@ import Services from "./pages/Services";
 
 export default function App() {
   return (
-    <div className="w-mobile lg:w-full">
+    <div className="w-mobile lg:w-full border">
       <Home />
     </div>
   );

@@ -17,6 +17,13 @@ export default {
       },
       backgroundImage: {
         hero: "url(./images/hero-2.jpeg)",
+        manicure: "url('./images/services/manicure.jpeg')",
+        pedicure: "url('./images/services/pedicure.jpg')",
+        massage: "url('./images/services/massage.jpeg')",
+        facial: "url('./images/services/facial.jpeg')",
+        special: "url('./images/services/special.jpeg')",
+        waxing: "url('./images/services/waxing.jpeg')",
+        kids: "url('./images/services/kids.jpeg')",
       },
       width: {
         mobile: "375px",
