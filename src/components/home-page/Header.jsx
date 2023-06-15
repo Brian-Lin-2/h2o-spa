@@ -10,7 +10,7 @@ export default function Header() {
             Nails You Will Love!
           </h1>
           <p className="font-verdana">
-            We provide nail and spa services with the upmost care and
+            Providing nail and spa services with the upmost care and
             cleanliness.
           </p>
         </div>

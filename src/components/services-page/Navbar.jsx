@@ -23,7 +23,7 @@ export default function Navbar() {
           <a>Facial</a>
           <a>Waxing</a>
           <a>Spa Special</a>
-          <a>Kid Menu</a>
+          <a>Kid's Menu</a>
         </div>
       </div>
     </div>

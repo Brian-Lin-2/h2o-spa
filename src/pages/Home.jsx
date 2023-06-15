@@ -9,9 +9,9 @@ export default function HomePage() {
   return (
     <>
       <Header />
+      <Services />
       <Info />
       <About />
-      <Services />
       <Gift />
       <Footer />
     </>
