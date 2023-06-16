@@ -51,7 +51,7 @@ export default function Manicure() {
         <h2 className="my-2 border text-lg text-karla font-bold text-center">
           Natural Nails
         </h2>
-        <div className="flex flex-col gap-4">
+        <div className="grid gap-4">
           {natural.map((type) => {
             return (
               <Card
@@ -68,7 +68,7 @@ export default function Manicure() {
         <h2 className="my-2 border text-lg text-karla font-bold text-center">
           Artificial Nails
         </h2>
-        <div className="flex flex-col gap-4">
+        <div className="grid gap-4">
           {artificial.map((type) => {
             return (
               <Card
@@ -85,7 +85,7 @@ export default function Manicure() {
         <h2 className="my-2 border text-lg text-karla font-bold text-center">
           Soak-Off Color Gel
         </h2>
-        <div className="flex flex-col gap-4">
+        <div className="grid gap-4">
           {gel.map((type) => {
             return (
               <Card
@@ -106,13 +106,14 @@ export default function Manicure() {
           Includes a hydrating paraffin wrap (soothing and hydrating for
           arthritic hands.)
         </p>
-        <div className="flex flex-col gap-4">
+        <div className="grid gap-4">
           {special.map((type) => {
             return (
               <Card
                 key={crypto.randomUUID()}
                 service={type.service}
                 cost={type.cost}
+                info={type.info}
               />
             );
           })}
