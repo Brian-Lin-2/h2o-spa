@@ -9,7 +9,7 @@ export default function Header() {
           <h1 className="text-4xl font-bold mb-4 font-karla">
             Nails You Will Love!
           </h1>
-          <p className="font-verdana">
+          <p className="font-verdana text-dark-gray">
             Providing nail and spa services with the upmost care and
             cleanliness.
           </p>

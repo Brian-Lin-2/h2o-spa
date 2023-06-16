@@ -5,7 +5,7 @@ export default function Info() {
         <div className="flex flex-col items-center justify-center text-center mx-16 lg:mx-8">
           <img className="w-12" src="./images/location.svg" />
           <h3 className="font-karla text-xl font-bold">Location</h3>
-          <p className="font-verdana text-sm">
+          <p className="font-verdana text-sm text-dark-gray">
             302 Sunrise Highway Rockville Centre, NY 11570
           </p>
         </div>
@@ -13,7 +13,7 @@ export default function Info() {
         <div className="flex flex-col items-center justify-center text-center">
           <img className="w-12" src="./images/clock.svg" />
           <h3 className="font-karla text-xl font-bold">Hours</h3>
-          <p className="font-verdana text-sm">
+          <p className="font-verdana text-sm text-dark-gray">
             Mon - Sat: 9:30am - 7:30pm
             <br />
             Sunday: 10:00am - 6:00pm
@@ -23,7 +23,7 @@ export default function Info() {
         <div className="flex flex-col items-center justify-center text-center">
           <img className="w-12" src="./images/phone.jpeg" />
           <h3 className="font-karla text-xl font-bold">Contact</h3>
-          <p className="font-verdana text-sm">
+          <p className="font-verdana text-sm text-dark-gray">
             516-766-2576
             <br />
             h2ospallc@gmail.com
