@@ -17,13 +17,19 @@ export default {
       },
       backgroundImage: {
         hero: "url(./images/hero-2.jpeg)",
-        manicure: "url('./images/services/manicure.jpeg')",
-        pedicure: "url('./images/services/pedicure.jpg')",
-        massage: "url('./images/services/massage.jpeg')",
-        facial: "url('./images/services/facial.jpeg')",
-        special: "url('./images/services/special.jpeg')",
-        waxing: "url('./images/services/waxing.jpeg')",
-        kids: "url('./images/services/kids.jpeg')",
+        manicure:
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/services/manicure.jpeg')",
+        pedicure:
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/services/pedicure.jpg')",
+        massage:
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/services/massage.jpeg')",
+        facial:
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/services/facial.jpeg')",
+        special:
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url(' /images/services/special.jpeg')",
+        waxing:
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/services/waxing.jpeg')",
+        kids: "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/services/kids.jpeg')",
       },
       width: {
         mobile: "375px",
