@@ -1,3 +1,5 @@
+import Card from "./Card";
+
 export default function Manicure() {
   const natural = [
     { service: "Manicure", cost: "15" },
@@ -44,41 +46,78 @@ export default function Manicure() {
   ];
 
   return (
-    <div>
-      <h2 className="mb-2">Natural Nails</h2>
-      {natural.map((type) => {
-        return (
-          <h5 key={crypto.randomUUID()}>{type.service + " " + type.cost}</h5>
-        );
-      })}
+    <div className="flex flex-col gap-8 mt-12">
+      <div>
+        <h2 className="my-2 border text-lg text-karla font-bold text-center">
+          Natural Nails
+        </h2>
+        <div className="flex flex-col gap-4">
+          {natural.map((type) => {
+            return (
+              <Card
+                key={crypto.randomUUID()}
+                service={type.service}
+                cost={type.cost}
+              />
+            );
+          })}
+        </div>
+      </div>
 
-      <h2 className="mb-2 mt-6">Artificial Nails</h2>
-      {artificial.map((type) => {
-        return (
-          <h5 key={crypto.randomUUID()}>{type.service + " " + type.cost}</h5>
-        );
-      })}
+      <div>
+        <h2 className="my-2 border text-lg text-karla font-bold text-center">
+          Artificial Nails
+        </h2>
+        <div className="flex flex-col gap-4">
+          {artificial.map((type) => {
+            return (
+              <Card
+                key={crypto.randomUUID()}
+                service={type.service}
+                cost={type.cost}
+              />
+            );
+          })}
+        </div>
+      </div>
 
-      <h2 className="mb-2 mt-6">Soak-Off Color Gel</h2>
-      {gel.map((type) => {
-        return (
-          <h5 key={crypto.randomUUID()}>{type.service + " " + type.cost}</h5>
-        );
-      })}
+      <div>
+        <h2 className="my-2 border text-lg text-karla font-bold text-center">
+          Soak-Off Color Gel
+        </h2>
+        <div className="flex flex-col gap-4">
+          {gel.map((type) => {
+            return (
+              <Card
+                key={crypto.randomUUID()}
+                service={type.service}
+                cost={type.cost}
+              />
+            );
+          })}
+        </div>
+      </div>
 
-      <h2 className="mt-6">Manicure Special</h2>
-      <p className="mb-4">
-        Includes a hydrating paraffin wrap (soothing and hydrating for arthritic
-        hands.)
-      </p>
-      {special.map((type) => {
-        return (
-          <div key={crypto.randomUUID()}>
-            <h5>{type.service + " " + type.cost}</h5>
-            <p className="my-4">{type.info}</p>
-          </div>
-        );
-      })}
+      <div>
+        <h2 className="my-2 border text-lg text-karla font-bold text-center">
+          Manicure Special
+        </h2>
+        <p className="mb-4 text-sm text-dark-gray text-center">
+          Includes a hydrating paraffin wrap (soothing and hydrating for
+          arthritic hands.)
+        </p>
+        <div className="flex flex-col gap-4">
+          {special.map((type) => {
+            return (
+              <Card
+                key={crypto.randomUUID()}
+                service={type.service}
+                cost={type.cost}
+              />
+            );
+          })}
+        </div>
+      </div>
     </div>
   );
 }

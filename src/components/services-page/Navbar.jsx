@@ -8,22 +8,24 @@ import Waxing from "./Waxing";
 
 export default function Navbar() {
   return (
-    <div className="mx-52 mt-16 mb-32 border">
+    <div className=" mt-16 mb-32 mx-12 border lg:mx-32">
       <h1 className="text-4xl text-center font-karla font-bold mb-12">
         Services
       </h1>
 
-      <div className="flex">
-        <div className="w-11/12 border"></div>
+      <div className="flex flex-col-reverse">
+        <div className="">
+          <Manicure />
+        </div>
 
-        <div className="flex flex-col gap-5 border font-karla text-lg">
-          <a>Manicure</a>
-          <a>Pedicure</a>
-          <a>Massage</a>
-          <a>Facial</a>
-          <a>Waxing</a>
-          <a>Spa Special</a>
-          <a>Kid's Menu</a>
+        <div className="flex flex-col border font-karla text-center text-lg">
+          <a className="border p-2">Manicure</a>
+          <a className="border p-2">Pedicure</a>
+          <a className="border p-2">Massage</a>
+          <a className="border p-2">Facial</a>
+          <a className="border p-2">Waxing</a>
+          <a className="border p-2">Spa Special</a>
+          <a className="border p-2">Kid's Menu</a>
         </div>
       </div>
     </div>
