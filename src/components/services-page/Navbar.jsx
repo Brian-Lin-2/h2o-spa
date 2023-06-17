@@ -18,7 +18,7 @@ export default function Navbar() {
           <Manicure />
         </div>
 
-        <div className="grid gap-4 grid-cols-2 font-karla text-center">
+        <div className="grid gap-4 grid-cols-2 font-karla text-center lg:grid-cols-3 lg:mx-48 lg:gap-6">
           <a className="border border-black font-bold p-2 rounded-full">
             Manicure
           </a>
@@ -37,7 +37,7 @@ export default function Navbar() {
           <a className="border border-black font-bold p-2 rounded-full">
             Spa Special
           </a>
-          <a className="border border-black font-bold p-2 rounded-full relative left-1/2">
+          <a className="border border-black font-bold p-2 rounded-full relative left-1/2 lg:col-start-2 lg:left-0">
             Kid's Menu
           </a>
         </div>
