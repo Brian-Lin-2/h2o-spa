@@ -42,7 +42,7 @@ export default function Special() {
 
   return (
     <div>
-      <h2 className="my-2 border text-2xl text-karla font-bold text-center">
+      <h2 className="my-2 border-b pb-2 mb-8 mx-16 text-2xl text-karla font-bold text-center">
         Spa Special
       </h2>
       {spa.map((type) => {
@@ -57,7 +57,7 @@ export default function Special() {
         );
       })}
 
-      <h2 className="my-2 border text-2xl text-karla font-bold text-center">
+      <h2 className="my-2 border-b pb-2 mb-8 mx-16 text-2xl text-karla font-bold text-center">
         Special Treatment
       </h2>
       {treatment.map((type) => {

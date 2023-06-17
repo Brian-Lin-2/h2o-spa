@@ -48,7 +48,7 @@ export default function Manicure() {
   return (
     <div className="flex flex-col gap-8 mt-12">
       <div>
-        <h2 className="my-2 border text-lg text-karla font-bold text-center">
+        <h2 className="my-2 border-b pb-2 mb-8 mx-16 text-lg text-karla font-bold text-center">
           Natural Nails
         </h2>
         <div className="grid gap-4">
@@ -65,7 +65,7 @@ export default function Manicure() {
       </div>
 
       <div>
-        <h2 className="my-2 border text-lg text-karla font-bold text-center">
+        <h2 className="my-2 border-b pb-2 mb-8 mx-16 text-lg text-karla font-bold text-center">
           Artificial Nails
         </h2>
         <div className="grid gap-4">
@@ -82,7 +82,7 @@ export default function Manicure() {
       </div>
 
       <div>
-        <h2 className="my-2 border text-lg text-karla font-bold text-center">
+        <h2 className="my-2 border-b pb-2 mb-8 mx-16 text-lg text-karla font-bold text-center">
           Soak-Off Color Gel
         </h2>
         <div className="grid gap-4">
@@ -99,7 +99,7 @@ export default function Manicure() {
       </div>
 
       <div>
-        <h2 className="my-2 border text-2xl text-karla font-bold text-center">
+        <h2 className="my-2 border-b pb-2 mb-8 mx-16 text-2xl text-karla font-bold text-center">
           Manicure Special
         </h2>
         <p className="mb-4 text-xs text-dark-gray text-center mx-8">

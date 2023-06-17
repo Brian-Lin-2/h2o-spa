@@ -8,14 +8,14 @@ import Waxing from "./Waxing";
 
 export default function Navbar() {
   return (
-    <div className=" mt-16 mb-32 mx-12 border lg:mx-32">
+    <div className=" mt-16 mb-32 mx-12 lg:mx-32">
       <h1 className="text-4xl text-center font-karla font-bold mb-12">
         Services
       </h1>
 
       <div className="flex flex-col-reverse">
         <div className="">
-          <Special />
+          <Manicure />
         </div>
 
         <div className="flex flex-col border font-karla text-center text-lg">
