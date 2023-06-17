@@ -1,3 +1,5 @@
+import Card from "./Card";
+
 export default function Waxing() {
   const waxing = [
     { service: "Eyebrow", cost: "12" },
@@ -18,10 +20,16 @@ export default function Waxing() {
 
   return (
     <div>
-      <h2 className="mb-2 mt-6">Waxing</h2>
+      <h2 className="my-2 border text-2xl text-karla font-bold text-center">
+        Waxing
+      </h2>
       {waxing.map((type) => {
         return (
-          <h5 key={crypto.randomUUID()}>{type.service + " " + type.cost}</h5>
+          <Card
+            key={crypto.randomUUID()}
+            service={type.service}
+            cost={type.cost}
+          />
         );
       })}
     </div>

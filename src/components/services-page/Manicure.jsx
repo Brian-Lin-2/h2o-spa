@@ -99,7 +99,7 @@ export default function Manicure() {
       </div>
 
       <div>
-        <h2 className="my-2 border text-lg text-karla font-bold text-center">
+        <h2 className="my-2 border text-2xl text-karla font-bold text-center">
           Manicure Special
         </h2>
         <p className="mb-4 text-xs text-dark-gray text-center mx-8">

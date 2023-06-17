@@ -23,7 +23,7 @@ export default function KidMenu() {
 
   return (
     <div>
-      <h2 className="mt-2 border text-lg text-karla font-bold text-center">
+      <h2 className="mt-2 border text-2xl text-karla font-bold text-center">
         Kids Menu
       </h2>
       <p className="mb-4 text-xs text-dark-gray text-center mx-8">

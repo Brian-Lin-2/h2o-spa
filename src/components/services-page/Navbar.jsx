@@ -15,7 +15,7 @@ export default function Navbar() {
 
       <div className="flex flex-col-reverse">
         <div className="">
-          <Facial />
+          <Waxing />
         </div>
 
         <div className="flex flex-col border font-karla text-center text-lg">

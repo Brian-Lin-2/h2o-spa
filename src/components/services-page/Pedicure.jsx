@@ -48,7 +48,7 @@ export default function Pedicure() {
 
   return (
     <div>
-      <h2 className="my-2 border text-lg text-karla font-bold text-center">
+      <h2 className="my-2 border text-2xl text-karla font-bold text-center">
         Foot Care
       </h2>
       <div className="grid gap-4">

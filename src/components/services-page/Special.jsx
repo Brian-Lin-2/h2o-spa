@@ -1,3 +1,5 @@
+import Card from "./Card";
+
 export default function Special() {
   const spa = [
     {
@@ -40,26 +42,31 @@ export default function Special() {
 
   return (
     <div>
-      <h2>Spa Special</h2>
+      <h2 className="my-2 border text-2xl text-karla font-bold text-center">
+        Spa Special
+      </h2>
       {spa.map((type) => {
         return (
-          <div className="mb-4" key={crypto.randomUUID()}>
-            <h5>{type.service + " " + type.cost}</h5>
-            <ol className="ml-2">
-              {type.desc.map((point) => {
-                return <li key={crypto.randomUUID()}>{point}</li>;
-              })}
-            </ol>
-          </div>
+          <Card
+            key={crypto.randomUUID()}
+            service={type.service}
+            cost={type.cost}
+            info={type.info}
+            desc={type.desc}
+          />
         );
       })}
 
-      <h2 className="mt-4">Special Treatment</h2>
+      <h2 className="my-2 border text-2xl text-karla font-bold text-center">
+        Special Treatment
+      </h2>
       {treatment.map((type) => {
         return (
-          <div key={crypto.randomUUID()}>
-            <h5>{type.service + " " + type.cost}</h5>
-          </div>
+          <Card
+            key={crypto.randomUUID()}
+            service={type.service}
+            cost={type.cost}
+          />
         );
       })}
     </div>

@@ -36,7 +36,7 @@ export default function Massage() {
 
   return (
     <div>
-      <h3 className="my-2 border text-lg text-karla font-bold text-center">
+      <h3 className="my-2 border text-2xl text-karla font-bold text-center">
         Massage
       </h3>
       <div className="grid gap-4">
