@@ -23,32 +23,34 @@ export default function KidMenu() {
 
   return (
     <div>
-      <h2 className="mt-2 border-b pb-2 mb-8 mx-16 text-2xl text-karla font-bold text-center">
+      <h2 className="mt-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center">
         Kids Menu
       </h2>
       <p className="mb-4 text-xs text-dark-gray text-center mx-8">
         (up to the age of 10)
       </p>
 
-      {kids.map((type) => {
-        return (
-          <Card
-            key={crypto.randomUUID()}
-            service={type.service}
-            cost={type.cost}
-          />
-        );
-      })}
+      <div className="grid gap-4 lg:grid-cols-2">
+        {kids.map((type) => {
+          return (
+            <Card
+              key={crypto.randomUUID()}
+              service={type.service}
+              cost={type.cost}
+            />
+          );
+        })}
 
-      {polish.map((type) => {
-        return (
-          <Card
-            key={crypto.randomUUID()}
-            service={type.service}
-            cost={type.costHand + " / " + type.costFeet}
-          />
-        );
-      })}
+        {polish.map((type) => {
+          return (
+            <Card
+              key={crypto.randomUUID()}
+              service={type.service}
+              cost={type.costHand + " / " + type.costFeet}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }

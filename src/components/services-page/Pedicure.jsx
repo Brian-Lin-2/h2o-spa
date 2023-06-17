@@ -48,10 +48,10 @@ export default function Pedicure() {
 
   return (
     <div>
-      <h2 className="my-2 border-b pb-2 mb-8 text-2xl text-karla font-bold text-center">
+      <h2 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center">
         Foot Care
       </h2>
-      <div className="grid gap-4">
+      <div className="grid gap-4 lg:grid-cols-2">
         {foot.map((type) => {
           return (
             <Card
@@ -64,7 +64,7 @@ export default function Pedicure() {
         })}
       </div>
 
-      <h2 className="my-2 border-b pb-2 mb-8 mx-16 text-lg text-karla font-bold text-center">
+      <h2 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center">
         Pedicure Special
       </h2>
       <p className="mb-4 text-xs text-dark-gray text-center mx-8">

@@ -15,7 +15,7 @@ export default function Navbar() {
 
       <div className="flex flex-col-reverse">
         <div className="">
-          <Manicure />
+          <Pedicure />
         </div>
 
         <div className="grid gap-4 grid-cols-2 font-karla text-center lg:grid-cols-3 lg:mx-48 lg:gap-6">

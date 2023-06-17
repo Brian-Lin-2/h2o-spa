@@ -36,10 +36,10 @@ export default function Massage() {
 
   return (
     <div>
-      <h3 className="my-2 border-b pb-2 mb-8 mx-16 text-2xl text-karla font-bold text-center">
+      <h3 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center">
         Massage
       </h3>
-      <div className="grid gap-4">
+      <div className="grid gap-4 lg:grid-cols-2">
         {massage.map((type) => {
           return (
             <Card
