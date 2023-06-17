@@ -106,7 +106,7 @@ export default function Manicure() {
           *Includes a hydrating paraffin wrap (soothing and hydrating for
           arthritic hands.)
         </p>
-        <div className="grid gap-4">
+        <div className="grid gap-4 lg:grid-cols-2">
           {special.map((type) => {
             return (
               <Card

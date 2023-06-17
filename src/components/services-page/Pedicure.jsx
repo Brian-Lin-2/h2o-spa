@@ -70,7 +70,7 @@ export default function Pedicure() {
       <p className="mb-4 text-xs text-dark-gray text-center mx-8">
         *Includes a hydrating paraffin wrap and callus wrap.
       </p>
-      <div className="grid gap-4">
+      <div className="grid gap-4 lg:grid-cols-2">
         {special.map((type) => {
           return (
             <Card

@@ -15,10 +15,10 @@ export default function Navbar() {
 
       <div className="flex flex-col-reverse">
         <div className="">
-          <Pedicure />
+          <Waxing />
         </div>
 
-        <div className="grid gap-4 grid-cols-2 font-karla text-center lg:grid-cols-3 lg:mx-48 lg:gap-6">
+        <div className="grid gap-4 grid-cols-2 font-karla text-center mb-20 lg:grid-cols-3 lg:mx-48 lg:gap-6">
           <a className="border border-black font-bold p-2 rounded-full">
             Manicure
           </a>
