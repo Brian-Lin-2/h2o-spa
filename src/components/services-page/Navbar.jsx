@@ -18,14 +18,28 @@ export default function Navbar() {
           <Manicure />
         </div>
 
-        <div className="flex flex-col border font-karla text-center text-lg">
-          <a className="border p-2">Manicure</a>
-          <a className="border p-2">Pedicure</a>
-          <a className="border p-2">Massage</a>
-          <a className="border p-2">Facial</a>
-          <a className="border p-2">Waxing</a>
-          <a className="border p-2">Spa Special</a>
-          <a className="border p-2">Kid's Menu</a>
+        <div className="grid gap-4 grid-cols-2 font-karla text-center">
+          <a className="border border-black font-bold p-2 rounded-full">
+            Manicure
+          </a>
+          <a className="border border-black font-bold p-2 rounded-full">
+            Pedicure
+          </a>
+          <a className="border border-black font-bold p-2 rounded-full">
+            Massage
+          </a>
+          <a className="border border-black font-bold p-2 rounded-full">
+            Facial
+          </a>
+          <a className="border border-black font-bold p-2 rounded-full">
+            Waxing
+          </a>
+          <a className="border border-black font-bold p-2 rounded-full">
+            Spa Special
+          </a>
+          <a className="border border-black font-bold p-2 rounded-full relative left-1/2">
+            Kid's Menu
+          </a>
         </div>
       </div>
     </div>
