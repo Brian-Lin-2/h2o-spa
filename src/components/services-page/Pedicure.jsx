@@ -1,3 +1,5 @@
+import Card from "./Card";
+
 export default function Pedicure() {
   const foot = [
     { service: "Pedicure", cost: "27" },
@@ -46,25 +48,40 @@ export default function Pedicure() {
 
   return (
     <div>
-      <h2 className="mb-2">Foot Care</h2>
-      {foot.map((type) => {
-        return (
-          <h5 key={crypto.randomUUID()}>{type.service + " " + type.cost}</h5>
-        );
-      })}
+      <h2 className="my-2 border text-lg text-karla font-bold text-center">
+        Foot Care
+      </h2>
+      <div className="grid gap-4">
+        {foot.map((type) => {
+          return (
+            <Card
+              key={crypto.randomUUID()}
+              service={type.service}
+              cost={type.cost}
+              info={type.info}
+            />
+          );
+        })}
+      </div>
 
-      <h2 className="mb-2">Pedicure Special</h2>
-      <p className="mb-4">
-        Includes a hydrating paraffin wrap and callus wrap.
+      <h2 className="my-2 border text-lg text-karla font-bold text-center">
+        Pedicure Special
+      </h2>
+      <p className="mb-4 text-xs text-dark-gray text-center mx-8">
+        *Includes a hydrating paraffin wrap and callus wrap.
       </p>
-      {special.map((type) => {
-        return (
-          <div key={crypto.randomUUID()}>
-            <h5>{type.service + " " + type.cost}</h5>
-            <p className="my-4">{type.info}</p>
-          </div>
-        );
-      })}
+      <div className="grid gap-4">
+        {special.map((type) => {
+          return (
+            <Card
+              key={crypto.randomUUID()}
+              service={type.service}
+              cost={type.cost}
+              info={type.info}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }

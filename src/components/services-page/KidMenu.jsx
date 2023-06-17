@@ -1,3 +1,5 @@
+import Card from "./Card";
+
 export default function KidMenu() {
   const kids = [
     { service: "Manicure", cost: "10" },
@@ -21,19 +23,30 @@ export default function KidMenu() {
 
   return (
     <div>
-      <h2>
-        Kids Menu <span>(up to age of 10)</span>
+      <h2 className="mt-2 border text-lg text-karla font-bold text-center">
+        Kids Menu
       </h2>
+      <p className="mb-4 text-xs text-dark-gray text-center mx-8">
+        (up to the age of 10)
+      </p>
+
       {kids.map((type) => {
         return (
-          <h5 key={crypto.randomUUID()}>{type.service + " " + type.cost}</h5>
+          <Card
+            key={crypto.randomUUID()}
+            service={type.service}
+            cost={type.cost}
+          />
         );
       })}
+
       {polish.map((type) => {
         return (
-          <h5 key={crypto.randomUUID()}>
-            {type.service + " " + type.costHand + " " + type.costFeet}
-          </h5>
+          <Card
+            key={crypto.randomUUID()}
+            service={type.service}
+            cost={type.costHand + " / " + type.costFeet}
+          />
         );
       })}
     </div>

@@ -102,8 +102,8 @@ export default function Manicure() {
         <h2 className="my-2 border text-lg text-karla font-bold text-center">
           Manicure Special
         </h2>
-        <p className="mb-4 text-sm text-dark-gray text-center">
-          Includes a hydrating paraffin wrap (soothing and hydrating for
+        <p className="mb-4 text-xs text-dark-gray text-center mx-8">
+          *Includes a hydrating paraffin wrap (soothing and hydrating for
           arthritic hands.)
         </p>
         <div className="grid gap-4">

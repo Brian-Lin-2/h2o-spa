@@ -1,3 +1,5 @@
+import Card from "./Card";
+
 export default function Massage() {
   const massage = [
     {
@@ -34,16 +36,21 @@ export default function Massage() {
 
   return (
     <div>
-      {massage.map((type) => {
-        return (
-          <>
-            <h5 key={crypto.randomUUID()}>
-              {type.service + " " + type.cost30 + " " + type.cost60}
-            </h5>
-            <p className="mb-2">{type.info}</p>
-          </>
-        );
-      })}
+      <h3 className="my-2 border text-lg text-karla font-bold text-center">
+        Massage
+      </h3>
+      <div className="grid gap-4">
+        {massage.map((type) => {
+          return (
+            <Card
+              key={crypto.randomUUID()}
+              service={type.service}
+              cost={type.cost30 + " / " + type.cost60}
+              info={type.info}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }
