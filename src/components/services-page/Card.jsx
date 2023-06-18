@@ -1,4 +1,5 @@
-/* eslint-disable react/prop-types */
+import { PropTypes } from "prop-types";
+
 export default function Card({ service, cost, info, desc }) {
   return (
     <div className="border-b mx-4 px-2 py-4 font-karla">
@@ -22,3 +23,10 @@ export default function Card({ service, cost, info, desc }) {
     </div>
   );
 }
+
+Card.propTypes = {
+  service: PropTypes.string,
+  cost: PropTypes.num,
+  info: PropTypes.string,
+  desc: PropTypes.array.isRequired,
+};

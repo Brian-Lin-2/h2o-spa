@@ -4,11 +4,12 @@ import About from "../components/home-page/About";
 import Services from "../components/home-page/Services";
 import Gift from "../components/home-page/Gift";
 import Footer from "../components/Footer";
+import { PropTypes } from "prop-types";
 
-export default function HomePage() {
+export default function Home({ setPage }) {
   return (
     <>
-      <Header />
+      <Header setPage={setPage} />
       <Services />
       <About />
       <Gift />
@@ -17,3 +18,7 @@ export default function HomePage() {
     </>
   );
 }
+
+Home.propTypes = {
+  setPage: PropTypes.func.isRequired,
+};

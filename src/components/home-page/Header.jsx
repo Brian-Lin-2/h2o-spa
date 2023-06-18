@@ -1,9 +1,10 @@
 import Heading from "../Heading";
+import { PropTypes } from "prop-types";
 
-export default function Header() {
+export default function Header({ setPage }) {
   return (
     <>
-      <Heading />
+      <Heading setPage={setPage} />
       <div className="flex flex-col-reverse bg-blue-1 p-6 pb-12 lg:flex-row lg:px-40 lg:gap-8 lg:pt-12 lg:pb-32 lg:items-center">
         <div className="text-center mt-8 lg:mx-20 lg:text-start">
           <h1 className="text-4xl font-bold mb-4 font-karla lg:text-6xl">
@@ -20,3 +21,7 @@ export default function Header() {
     </>
   );
 }
+
+Header.propTypes = {
+  setPage: PropTypes.func.isRequired,
+};
