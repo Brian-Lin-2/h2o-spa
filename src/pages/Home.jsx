@@ -11,9 +11,9 @@ export default function Home({ setPage, setInitial }) {
     <>
       <Header setPage={setPage} />
       <Services setPage={setPage} setInitial={setInitial} />
-      <About />
+      <About setPage={setPage} />
       <Gift />
-      <Info />
+      <Info setPage={setPage} />
       <Footer />
     </>
   );

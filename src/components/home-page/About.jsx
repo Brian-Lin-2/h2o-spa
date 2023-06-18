@@ -1,4 +1,6 @@
-export default function About() {
+import { PropTypes } from "prop-types";
+
+export default function About({ setPage }) {
   return (
     <div className="flex flex-col gap-6 items-center my-40 mx-8 lg:ml-80 lg:mr-16 lg:flex-row lg:gap-0 lg:mt-48 lg:mb-80">
       <img
@@ -15,10 +17,17 @@ export default function About() {
           lifestyle products to each of our clients under the highest standards
           of business ethics.
         </p>
-        <button className="font-karla font-bold text-white bg-blue-3 py-3 px-6 mt-2 rounded-full hover:opacity-80">
+        <button
+          className="font-karla font-bold text-white bg-blue-3 py-3 px-6 mt-2 rounded-full hover:opacity-80"
+          onClick={() => setPage("About")}
+        >
           Learn More
         </button>
       </div>
     </div>
   );
 }
+
+About.propTypes = {
+  setPage: PropTypes.func.isRequired,
+};

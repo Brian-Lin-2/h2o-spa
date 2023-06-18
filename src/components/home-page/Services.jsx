@@ -51,7 +51,13 @@ export default function Services({ setPage, setInitial }) {
           );
         })}
       </li>
-      <button className="border py-3 px-6 bg-blue-3 text-white font-bold rounded-full lg:text-lg hover:opacity-80">
+      <button
+        className="border py-3 px-6 bg-blue-3 text-white font-bold rounded-full lg:text-lg hover:opacity-80"
+        onClick={() => {
+          setInitial("");
+          setPage("Services");
+        }}
+      >
         See All Services
       </button>
     </div>
