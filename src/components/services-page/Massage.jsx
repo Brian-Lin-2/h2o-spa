@@ -35,7 +35,7 @@ export default function Massage() {
   ];
 
   return (
-    <div>
+    <div className="flex flex-col gap-8">
       <h3 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center">
         Massage
       </h3>

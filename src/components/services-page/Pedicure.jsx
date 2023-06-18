@@ -47,7 +47,7 @@ export default function Pedicure() {
   ];
 
   return (
-    <div>
+    <div className="flex flex-col gap-8">
       <h2 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center">
         Foot Care
       </h2>
