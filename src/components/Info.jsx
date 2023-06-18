@@ -31,7 +31,7 @@ export default function Info() {
         </div>
       </div>
 
-      <button className="border-2 border-black font-bold p-2 text-center font-karla mt-16 lg:mt-8">
+      <button className="border-2 border-black font-bold p-2 text-center font-karla mt-16 lg:mt-8 hover:bg-black hover:text-white">
         Book An Appointment
       </button>
     </div>

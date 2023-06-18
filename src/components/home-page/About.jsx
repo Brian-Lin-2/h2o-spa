@@ -15,7 +15,7 @@ export default function About() {
           lifestyle products to each of our clients under the highest standards
           of business ethics.
         </p>
-        <button className="font-karla font-bold text-white bg-blue-3 py-3 px-6 mt-2 rounded-full">
+        <button className="font-karla font-bold text-white bg-blue-3 py-3 px-6 mt-2 rounded-full hover:opacity-80">
           Learn More
         </button>
       </div>

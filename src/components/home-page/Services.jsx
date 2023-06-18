@@ -48,7 +48,7 @@ export default function Services() {
           );
         })}
       </li>
-      <button className="border py-3 px-6 bg-blue-3 text-white font-bold rounded-full lg:text-lg">
+      <button className="border py-3 px-6 bg-blue-3 text-white font-bold rounded-full lg:text-lg hover:opacity-80">
         See All Services
       </button>
     </div>
