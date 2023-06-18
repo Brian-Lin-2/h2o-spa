@@ -1,6 +1,7 @@
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
+import Contact from "./pages/Contact";
 import { useState } from "react";
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
       {page === "Home" && <Home setPage={setPage} />}
       {page === "About" && <About setPage={setPage} />}
       {page === "Services" && <Services setPage={setPage} />}
+      {page === "Contact" && <Contact setPage={setPage} />}
     </div>
   );
 }

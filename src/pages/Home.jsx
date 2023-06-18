@@ -1,5 +1,5 @@
 import Header from "../components/home-page/Header";
-import Info from "../components/home-page/Info";
+import Info from "../components/Info";
 import About from "../components/home-page/About";
 import Services from "../components/home-page/Services";
 import Gift from "../components/home-page/Gift";
