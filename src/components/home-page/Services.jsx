@@ -1,6 +1,7 @@
 import Card from "./Card";
+import { PropTypes } from "prop-types";
 
-export default function Services() {
+export default function Services({ setPage, setInitial }) {
   const services = [
     {
       service: "Manicure",
@@ -44,6 +45,8 @@ export default function Services() {
               service={service.service}
               image={service.image}
               position={service.position}
+              setPage={setPage}
+              setInitial={setInitial}
             />
           );
         })}
@@ -54,3 +57,8 @@ export default function Services() {
     </div>
   );
 }
+
+Services.propTypes = {
+  setPage: PropTypes.func.isRequired,
+  setInitial: PropTypes.func.isRequired,
+};

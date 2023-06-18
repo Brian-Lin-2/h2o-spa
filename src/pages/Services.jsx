@@ -1,13 +1,14 @@
 import Heading from "../components/Heading";
 import Navbar from "../components/services-page/Navbar";
 import Footer from "../components/Footer";
+import { useEffect } from "react";
 import { PropTypes } from "prop-types";
 
-export default function Services({ setPage }) {
+export default function Services({ setPage, initial }) {
   return (
     <div>
       <Heading setPage={setPage} />
-      <Navbar />
+      <Navbar initial={initial} />
       <Footer />
     </div>
   );
@@ -15,4 +16,5 @@ export default function Services({ setPage }) {
 
 Services.propTypes = {
   setPage: PropTypes.func.isRequired,
+  initial: PropTypes.string,
 };

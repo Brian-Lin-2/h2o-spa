@@ -7,11 +7,14 @@ import { useState } from "react";
 export default function App() {
   const [page, setPage] = useState("Home");
 
+  // For services.
+  const [initial, setInitial] = useState("");
+
   return (
     <div className="w-mobile lg:w-full border">
-      {page === "Home" && <Home setPage={setPage} />}
+      {page === "Home" && <Home setPage={setPage} setInitial={setInitial} />}
       {page === "About" && <About setPage={setPage} />}
-      {page === "Services" && <Services setPage={setPage} />}
+      {page === "Services" && <Services setPage={setPage} initial={initial} />}
       {page === "Contact" && <Contact setPage={setPage} />}
     </div>
   );

@@ -6,11 +6,11 @@ import Gift from "../components/home-page/Gift";
 import Footer from "../components/Footer";
 import { PropTypes } from "prop-types";
 
-export default function Home({ setPage }) {
+export default function Home({ setPage, setInitial }) {
   return (
     <>
       <Header setPage={setPage} />
-      <Services />
+      <Services setPage={setPage} setInitial={setInitial} />
       <About />
       <Gift />
       <Info />
@@ -21,4 +21,5 @@ export default function Home({ setPage }) {
 
 Home.propTypes = {
   setPage: PropTypes.func.isRequired,
+  setInitial: PropTypes.func.isRequired,
 };
