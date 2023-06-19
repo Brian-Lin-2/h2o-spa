@@ -16,20 +16,21 @@ export default {
         verdana: ["verdana", "sans-serif"],
       },
       backgroundImage: {
-        hero: "url(./images/hero-2.jpeg)",
+        hero: "url(./images/hero.png)",
         manicure:
-          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/services/manicure.jpeg')",
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./images/services/manicure.jpeg')",
         pedicure:
-          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/services/pedicure.jpg')",
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./images/services/pedicure.jpg')",
         massage:
-          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/services/massage.jpeg')",
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./images/services/massage.jpeg')",
         facial:
-          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/services/facial.jpeg')",
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./images/services/facial.jpeg')",
         special:
-          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url(' /images/services/special.jpeg')",
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./images/services/special.jpeg')",
         waxing:
-          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/services/waxing.jpeg')",
-        kids: "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/images/services/kids.jpeg')",
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./images/services/waxing.jpeg')",
+        kids: "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./images/services/kids.jpeg')",
+        "hero-video": "url(./videos/hero-bg.mp4)",
       },
       width: {
         mobile: "375px",
