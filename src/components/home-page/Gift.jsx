@@ -7,7 +7,7 @@ export default function Gift() {
         alt="gift-card"
       />
       <div className="text-center lg:text-start ml-8 mr-4">
-        <h1 className="mb-2 text-3xl font-karla font-bold lg:text-8xl">
+        <h1 className="mb-2 text-3xl font-karla font-bold lg:text-8xl lg:-tracking-wide">
           The Best Gift.
         </h1>
         <p className="mx-4 text-dark-gray lg:text-xl">
