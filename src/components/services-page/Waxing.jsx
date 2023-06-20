@@ -19,8 +19,8 @@ export default function Waxing() {
   ];
 
   return (
-    <div className="flex flex-col mb-12">
-      <h2 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center">
+    <div className="flex flex-col mb-12 mt-6 lg:my-12">
+      <h2 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center lg:text-start lg:text-4xl lg:pb-4">
         Waxing
       </h2>
 

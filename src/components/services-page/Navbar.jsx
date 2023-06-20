@@ -14,7 +14,7 @@ export default function Navbar({ initial }) {
   return (
     <div className="">
       <div className="bg-blue-2 font-bold">
-        <h1 className="text-4xl text-center font-karla py-12">Services</h1>
+        <h1 className="text-6xl text-center font-karla py-16">Services</h1>
 
         <div className="grid gap-4 grid-cols-2 font-karla text-center pb-20 px-12 lg:grid-cols-3 lg:px-96 lg:gap-6">
           <a

@@ -41,9 +41,9 @@ export default function Special() {
   ];
 
   return (
-    <div className="flex flex-col gap-20 mb-12 lg:gap-32">
+    <div className="flex flex-col gap-20 mb-12 mt-6 lg:my-12 lg:gap-20">
       <div>
-        <h2 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center">
+        <h2 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center lg:text-start lg:text-4xl lg:pb-4">
           Spa Special
         </h2>
         <div className="grid gap-4 lg:grid-cols-2">
