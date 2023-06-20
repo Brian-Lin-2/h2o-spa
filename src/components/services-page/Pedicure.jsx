@@ -47,40 +47,44 @@ export default function Pedicure() {
   ];
 
   return (
-    <div className="flex flex-col gap-8 lg:gap-32">
-      <h2 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center">
-        Foot Care
-      </h2>
-      <div className="grid gap-4 lg:grid-cols-2">
-        {foot.map((type) => {
-          return (
-            <Card
-              key={crypto.randomUUID()}
-              service={type.service}
-              cost={type.cost}
-              info={type.info}
-            />
-          );
-        })}
+    <div className="flex flex-col gap-8 mb-12 lg:gap-32">
+      <div>
+        <h2 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center">
+          Foot Care
+        </h2>
+        <div className="grid gap-4 lg:grid-cols-2">
+          {foot.map((type) => {
+            return (
+              <Card
+                key={crypto.randomUUID()}
+                service={type.service}
+                cost={type.cost}
+                info={type.info}
+              />
+            );
+          })}
+        </div>
       </div>
 
-      <h2 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center">
-        Pedicure Special
-      </h2>
-      <p className="mb-4 text-xs text-dark-gray text-center mx-8">
-        *Includes a hydrating paraffin wrap and callus wrap.
-      </p>
-      <div className="grid gap-4 lg:grid-cols-2">
-        {special.map((type) => {
-          return (
-            <Card
-              key={crypto.randomUUID()}
-              service={type.service}
-              cost={type.cost}
-              info={type.info}
-            />
-          );
-        })}
+      <div>
+        <h2 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center">
+          Pedicure Special
+        </h2>
+        <p className="mb-4 text-xs text-dark-gray text-center mx-8">
+          *Includes a hydrating paraffin wrap and callus wrap.
+        </p>
+        <div className="grid gap-4 lg:grid-cols-2">
+          {special.map((type) => {
+            return (
+              <Card
+                key={crypto.randomUUID()}
+                service={type.service}
+                cost={type.cost}
+                info={type.info}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );
