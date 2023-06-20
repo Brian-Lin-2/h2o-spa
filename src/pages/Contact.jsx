@@ -7,10 +7,11 @@ export default function Contact({ setPage }) {
   return (
     <>
       <Heading setPage={setPage} />
-      <div className="text-center font-karla font-bold bg-blue-2 text-4xl pt-20 -mb-16">
-        Contact Us
+
+      <div className="bg-blue-2">
+        <Info />
       </div>
-      <Info />
+
       <Footer />
     </>
   );
