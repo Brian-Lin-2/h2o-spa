@@ -35,11 +35,11 @@ export default function Services({ setPage, setInitial }) {
   ];
 
   return (
-    <div className="flex flex-col items-center mt-20 mb-40 gap-8 font-karla text-center lg:gap-12 lg:my-40">
+    <div className="flex flex-col items-center mt-20 mb-40 gap-8 font-karla text-center lg:gap-10 lg:my-40">
       <div className="lg:flex lg:justify-between lg:items-center lg:w-8/12">
         <h1 className="text-3xl font-bold lg:text-5xl">Services</h1>
         <button
-          className="hidden border-2 border-black py-2 px-4 font-bold text-lg lg:block hover:bg-black hover:text-white"
+          className="hidden border-2 border-black py-2 px-4 font-bold lg:block hover:bg-black hover:text-white"
           onClick={() => {
             setInitial("");
             setPage("Services");

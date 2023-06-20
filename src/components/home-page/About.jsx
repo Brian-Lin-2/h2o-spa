@@ -2,12 +2,9 @@ import { PropTypes } from "prop-types";
 
 export default function About({ setPage }) {
   return (
-    <div className="flex flex-col gap-6 items-center my-40 mx-8 lg:ml-80 lg:mr-16 lg:flex-row lg:gap-0 lg:mt-48 lg:mb-80">
-      <img
-        className="rounded-2xl lg:w-5/12 lg:block"
-        src="./images/hero-3.jpeg"
-      />
-      <div className="flex flex-col gap-4 text-center items-center lg:items-start lg:bg-blue-2 lg:rounded-2xl lg:p-12 lg:w-5/12 lg:text-start lg:relative lg:-left-20 lg:-bottom-32">
+    <div className="flex flex-col gap-6 items-center my-40 mx-8 bg-blue-2 lg:flex-row border lg:mx-0 lg:p-32">
+      <img className="lg:w-1/2" src="./images/hero-3.jpeg" />
+      <div className="flex flex-col gap-4 text-center items-center lg:items-start lg:p-12 lg:text-start">
         <h1 className="text-3xl font-karla font-bold lg:text-4xl">
           Who We Are
         </h1>
@@ -18,7 +15,7 @@ export default function About({ setPage }) {
           of business ethics.
         </p>
         <button
-          className="font-karla font-bold text-white bg-blue-3 py-3 px-6 mt-2 rounded-full hover:opacity-80"
+          className="font-karla font-bold border-2 border-black py-2 px-6 mt-2 hover:bg-black hover:text-white"
           onClick={() => setPage("About")}
         >
           Learn More
