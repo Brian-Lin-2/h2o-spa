@@ -1,17 +1,12 @@
 import Heading from "../Heading";
-import bgImage from "/videos/hero-bg.mp4";
 import { PropTypes } from "prop-types";
 
 export default function Header({ setPage }) {
   return (
     <>
-      <video
-        className="absolute -z-10 -top-16"
-        src="/videos/hero-bg.mp4"
-        autoPlay
-        loop
-        muted
-      ></video>
+      <video className="absolute -z-10 -top-12" autoPlay loop muted playsInline>
+        <source src="./videos/hero-bg.mp4" type="video/mp4" />
+      </video>
       <div>
         <Heading setPage={setPage} isHome={true} />
         <div className="flex flex-col-revers p-6 pb-12 lg:flex-row lg:px-40 lg:gap-8 lg:pt-12 lg:pb-40 lg:items-center">

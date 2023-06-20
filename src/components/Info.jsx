@@ -1,6 +1,6 @@
 export default function Info() {
   return (
-    <div className="flex flex-col items-center bg-blue-1 py-32 lg:gap-6">
+    <div className="flex flex-col items-center bg-blue-2 py-32 lg:gap-6">
       <div className="grid gap-20 lg:grid-cols-3 lg:grid-rows-1 lg:mx-60 lg:items-center lg:gap-0">
         <div className="flex flex-col items-center justify-center text-center mx-16 lg:mx-8">
           <img className="w-12" src="./images/location.svg" />

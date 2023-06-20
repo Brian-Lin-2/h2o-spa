@@ -4,9 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        "blue-1": "rgb(240, 252, 254)",
-        "blue-2": "rgb(220, 248, 254)",
-        "blue-3": "rgb(84, 183, 234)",
+        "blue-2": "rgb(207, 227, 248)",
+        "blue-3": "rgb(0, 128, 255)",
         "blackish-blue": "rgb(22, 41, 62)",
         "navy-blue": "rgb(24, 48, 74)",
         "dark-gray": "hsl(0, 0%, 55%)",
@@ -31,6 +30,7 @@ export default {
           "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./images/services/waxing.jpeg')",
         kids: "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./images/services/kids.jpeg')",
         "hero-video": "url(./videos/hero-bg.mp4)",
+        about: "url('./images/about-bg.png')",
       },
       width: {
         mobile: "375px",
