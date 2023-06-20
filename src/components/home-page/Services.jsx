@@ -36,8 +36,19 @@ export default function Services({ setPage, setInitial }) {
 
   return (
     <div className="flex flex-col items-center mt-20 mb-40 gap-8 font-karla text-center lg:gap-12 lg:my-40">
-      <h1 className="text-3xl font-bold lg:text-4xl">Services</h1>
-      <li className="grid gap-6 lg:grid-cols-3 lg:grid-rows-3">
+      <div className="lg:flex lg:justify-between lg:items-center lg:w-8/12">
+        <h1 className="text-3xl font-bold lg:text-5xl">Services</h1>
+        <button
+          className="hidden border-2 border-black py-2 px-4 font-bold text-lg lg:block hover:bg-black hover:text-white"
+          onClick={() => {
+            setInitial("");
+            setPage("Services");
+          }}
+        >
+          See All Services
+        </button>
+      </div>
+      <li className="grid gap-6 lg:grid-cols-3 lg:grid-rows-3 lg:w-8/12">
         {services.map((service) => {
           return (
             <Card
@@ -52,7 +63,7 @@ export default function Services({ setPage, setInitial }) {
         })}
       </li>
       <button
-        className="border py-3 px-6 bg-blue-3 text-white font-bold rounded-full lg:text-lg hover:opacity-80"
+        className="border-2 border-black py-2 px-6 font-bold hover:bg-black hover:text-white lg:hidden"
         onClick={() => {
           setInitial("");
           setPage("Services");
