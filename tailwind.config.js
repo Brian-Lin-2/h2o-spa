@@ -9,6 +9,7 @@ export default {
         "blackish-blue": "rgb(22, 41, 62)",
         "navy-blue": "rgb(24, 48, 74)",
         "dark-gray": "hsl(0, 0%, 55%)",
+        "dark-gray-transparent": "hsla(0, 0%, 55%, 70%)",
       },
       fontFamily: {
         karla: ["Karla", "sans-serif"],
@@ -34,6 +35,9 @@ export default {
       },
       width: {
         mobile: "375px",
+      },
+      spacing: {
+        76: "19rem",
       },
     },
   },
