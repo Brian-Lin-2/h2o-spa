@@ -12,7 +12,7 @@ export default function InfoPopUp({ setClick }) {
 
         <a onClick={() => setClick(false)}>
           <img
-            className="w-6 relative bottom-52 left-28 lg:w-8 lg:bottom-40 lg:left-76 hover:cursor-pointer"
+            className="w-6 relative bottom-52 left-28 lg:w-12 lg:bottom-40 lg:left-76 hover:cursor-pointer"
             src="./images/close-icon.svg"
           ></img>
         </a>
