@@ -1,6 +1,9 @@
 import InfoPopUp from "./InfoPopUp";
+import { useState } from "react";
 
 export default function Info() {
+  const [click, setClick] = useState(false);
+
   return (
     <>
       <div className="pb-32 pt-16">
@@ -38,12 +41,15 @@ export default function Info() {
             </div>
           </div>
 
-          <button className="border-2 border-black font-bold p-2 text-center font-karla mt-16 lg:mt-8 hover:bg-black hover:text-white">
+          <button
+            className="border-2 border-black font-bold p-2 text-center font-karla mt-16 lg:mt-8 hover:bg-black hover:text-white"
+            onClick={() => setClick(true)}
+          >
             Book An Appointment
           </button>
         </div>
       </div>
-      <InfoPopUp />
+      {click && <InfoPopUp setClick={setClick} />}
     </>
   );
 }

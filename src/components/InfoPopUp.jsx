@@ -1,16 +1,22 @@
-export default function InfoPopUp() {
+import PropTypes from "prop-types";
+
+export default function InfoPopUp({ setClick }) {
   return (
     <div className="border fixed inset-0 bg-dark-gray-transparent">
-      <div className="flex flex-col bg-white items-center my-40 mx-28 lg:flex-row lg:my-32 lg:mx-72 shadow-2xl">
+      <div className="flex flex-col bg-white items-center my-36 mx-28 lg:flex-row lg:my-32 lg:mx-72 shadow-2xl">
         <img
           className="lg:w-7/12"
           src="./images/person-calling.jpg"
           alt="girl-calling"
         ></img>
-        <img
-          className="w-6 relative bottom-52 left-28 lg:w-8 lg:bottom-40 lg:left-76"
-          src="./images/close-icon.svg"
-        ></img>
+
+        <a onClick={() => setClick(false)}>
+          <img
+            className="w-6 relative bottom-52 left-28 lg:w-8 lg:bottom-40 lg:left-76 hover:cursor-pointer"
+            src="./images/close-icon.svg"
+          ></img>
+        </a>
+
         <div className="mb-14 mt-4 mx-6 text-center lg:text-start lg:m-0 lg:ml-2 lg:mr-16">
           <h1 className="font-karla font-bold text-3xl mb-1 lg:text-4xl lg:mb-2">
             Call Today!
@@ -23,3 +29,7 @@ export default function InfoPopUp() {
     </div>
   );
 }
+
+InfoPopUp.propTypes = {
+  setClick: PropTypes.func.isRequired,
+};
