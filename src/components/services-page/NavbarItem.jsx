@@ -4,12 +4,10 @@ export default function NavbarItem({ item, active, setActive }) {
   let style =
     "border border-black p-2 rounded-full cursor-pointer hover:text-white hover:bg-black";
 
-  if (item === "Kid") {
+  if (item === "Kids") {
     style += " col-start-2";
   }
 
-  console.log(item);
-  console.log(active);
   if (item === active) {
     style += " bg-black text-white";
   }

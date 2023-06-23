@@ -24,11 +24,11 @@ export default function Services({ setPage, setInitial }) {
       image: "bg-waxing bg-center",
     },
     {
-      service: "Spa Special",
+      service: "Special",
       image: "bg-special bg-center",
     },
     {
-      service: "Kid's Menu",
+      service: "Kids",
       image: "bg-kids bg-center",
       position: "lg:col-start-2",
     },

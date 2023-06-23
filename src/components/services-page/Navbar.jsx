@@ -18,7 +18,7 @@ export default function Navbar({ initial }) {
     "Facial",
     "Waxing",
     "Special",
-    "Kid",
+    "Kids",
   ];
 
   return (
@@ -48,7 +48,7 @@ export default function Navbar({ initial }) {
           {active === "Facial" && <Facial />}
           {active === "Waxing" && <Waxing />}
           {active === "Special" && <Special />}
-          {active === "Kid" && <KidMenu />}
+          {active === "Kids" && <KidMenu />}
         </div>
       )}
     </div>
