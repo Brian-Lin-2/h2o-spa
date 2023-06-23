@@ -1,4 +1,4 @@
-import { MenuItem } from "./MenuItem";
+import MenuItem from "./MenuItem";
 import { PropTypes } from "prop-types";
 
 export default function Menu({ setPage }) {

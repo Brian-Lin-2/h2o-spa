@@ -1,4 +1,4 @@
-import { Menu } from "./Menu";
+import Menu from "./Menu";
 import { PropTypes } from "prop-types";
 
 export default function Heading({ setPage, isHome }) {
