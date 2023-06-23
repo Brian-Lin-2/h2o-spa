@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <div className="flex flex-col items-center gap-12 bg-black text-white-2 font-karla text-sm py-20 px-12 lg:justify-between lg:px-32 lg:py-28 lg:flex-row">
       <img className="w-20" src="./images/logo-white.png" alt="" />
-      <div className="grid gap-10 text-xs mt-6 lg:text-sm lg:grid-cols-2 lg:grid-rows-2 lg:gap-2 lg:-mr-20 lg:mt-4">
+      <div className="grid gap-10 text-xs mt-6 lg:text-sm lg:grid-cols-2 lg:grid-rows-2 lg:gap-2 lg:-mr-20 lg:mt-8">
         <div className="flex flex-col text-center mx-16 gap-2 items-center hover:text-white cursor-pointer lg:mx-0 lg:flex-row">
           <img className="w-8" src="./images/location-white.jpeg" />
           <a>302 Sunrise Highway Rockville Centre, NY 11570</a>
