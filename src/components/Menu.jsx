@@ -2,7 +2,7 @@ import MenuItem from "./MenuItem";
 import { PropTypes } from "prop-types";
 
 export default function Menu({ setPage }) {
-  const items = ["Home", "About", "Services", "Contact Us"];
+  const items = ["Home", "About", "Services", "Contact"];
 
   return (
     <>

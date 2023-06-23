@@ -4,16 +4,16 @@ import { PropTypes } from "prop-types";
 export default function MenuItem({ item, setPage }) {
   const [active, setActive] = useState(false);
 
-  let menuBar = "lg:invisible lg:border-t-2 lg:w-1/3 lg:mt-1";
+  let menuBar = "invisible border-t-2 w-1/2";
 
   if (active) {
-    menuBar = "lg:border-t-2 lg:w-1/3 lg:mt-1";
+    menuBar = "border-t-2 w-1/2 border-blue-3";
   }
 
   return (
     <a
-      className="cursor-pointer hover:text-blue-3"
-      onClick={() => setPage("Contact")}
+      className="flex flex-col items-center cursor-pointer hover:text-blue-3"
+      onClick={() => setPage(item)}
       onMouseOver={() => setActive(true)}
       onMouseOut={() => setActive(false)}
     >
