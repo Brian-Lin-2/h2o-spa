@@ -2,7 +2,12 @@ export default function Intro() {
   return (
     <>
       <div className="flex flex-col bg-blue-2 items-center pt-12 lg:pt-24 lg:flex-row">
-        <img className="lg:w-5/12" src="./images/hands-about.png" alt="" />
+        <img className="lg:hidden" src="./images/about-bg-mobile.png" alt="" />
+        <img
+          className="hidden w-5/12 lg:block"
+          src="./images/hands-about.png"
+          alt=""
+        />
         <h1 className="text-5xl font-karla font-bold mt-12 pb-20 lg:text-7xl lg:ml-48 lg:-mt-20">
           About Us
         </h1>

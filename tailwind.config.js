@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        "white-2": "hsla(0, 0%, 100%, 80%)",
         "blue-2": "rgb(207, 227, 248)",
         "blue-3": "rgb(0, 128, 255)",
         "blackish-blue": "rgb(22, 41, 62)",

@@ -1,21 +1,21 @@
 export default function Footer() {
   return (
-    <div className="bg-black text-white font-karla text-sm py-20 px-12 lg:px-32 lg:py-20">
-      <h1 className="mb-12 text-3xl">H2O Nail & Spa</h1>
-      <div className="grid gap-4 lg:grid-cols-2 lg:grid-rows-2 lg:mr-96 lg:gap-2">
-        <div className="flex gap-2 items-center hover:opacity-80 cursor-pointer">
+    <div className="flex flex-col items-center gap-12 bg-black text-white-2 font-karla text-sm py-20 px-12 lg:justify-between lg:px-32 lg:py-28 lg:flex-row">
+      <img className="w-20" src="./images/logo-white.png" alt="" />
+      <div className="grid gap-10 text-xs mt-6 lg:text-sm lg:grid-cols-2 lg:grid-rows-2 lg:gap-2 lg:-mr-20 lg:mt-4">
+        <div className="flex flex-col text-center mx-16 gap-2 items-center hover:text-white cursor-pointer lg:mx-0 lg:flex-row">
           <img className="w-8" src="./images/location-white.jpeg" />
           <a>302 Sunrise Highway Rockville Centre, NY 11570</a>
         </div>
-        <div className="flex gap-2 items-center hover:opacity-80 cursor-pointer">
-          <img className="w-8" src="./images/location-white.jpeg" />
+        <div className="flex flex-col text-center gap-2 items-center hover:text-white cursor-pointer lg:ml-6 lg:flex-row">
+          <img className="mx-1 w-6" src="./images/phone-white.png" />
           <p>516-766-2576</p>
         </div>
-        <div className="flex gap-1 items-center hover:opacity-80 cursor-pointer">
-          <img className="w-10 -ml-1" src="./images/email-white.png" />
+        <div className="flex flex-col text-center gap-1 items-center hover:text-white cursor-pointer lg:flex-row">
+          <img className="w-10" src="./images/email-white.png" />
           <p>h2ospallc@gmail.com</p>
         </div>
-        <div className="flex gap-3 ml-2 items-center hover:opacity-80 cursor-pointer">
+        <div className="flex flex-col text-center gap-3 items-center hover:text-white cursor-pointer lg:ml-8 lg:flex-row">
           <img className="w-5" src="./images/icon-facebook.svg" />
           <a>Like Us On Facebook!</a>
         </div>

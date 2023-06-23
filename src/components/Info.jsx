@@ -31,7 +31,7 @@ export default function Info() {
             </div>
 
             <div className="flex flex-col items-center justify-center text-center">
-              <img className="w-12" src="./images/phone.jpeg" />
+              <img className="w-12" src="./images/phone.png" />
               <h3 className="font-karla text-xl font-bold">Contact</h3>
               <p className="font-verdana text-sm text-dark-gray">
                 516-766-2576
