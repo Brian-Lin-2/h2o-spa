@@ -1,10 +1,15 @@
 export default function Intro() {
   return (
     <>
-      <img className="relative bottom-80 -z-10" src="./images/about-bg.png" />
-      {/* Hi, We're H2O. */}
-      <div className="flex flex-col-reverse -mt-64 my-20 mx-16 items-start justify-center text-center lg:text-start lg:flex-row lg:justify-start lg:mx-32">
-        <p className="text-dark-gray lg:w-2/3">
+      <div className="flex flex-col bg-blue-2 items-center pt-12 lg:pt-24 lg:flex-row">
+        <img className="lg:w-5/12" src="./images/hands-about.png" alt="" />
+        <h1 className="text-5xl font-karla font-bold mt-12 pb-20 lg:text-7xl lg:ml-48 lg:-mt-20">
+          About Us
+        </h1>
+      </div>
+
+      <div className="flex flex-col-reverse my-12 mx-16 items-start justify-center text-center lg:text-start lg:flex-row lg:justify-start lg:mx-32 lg:my-16">
+        <p className="text-dark-gray lg:w-2/3 lg:text-lg">
           Located at Rockville Centre, New York. Our goal is to provide the
           highest quality of Nail Salon and Spa services, offering environmental
           lifestyle products to each of our clients under the highest standards
@@ -21,7 +26,7 @@ export default function Intro() {
           helping you capture the tranquility of serenity and is dedicated to
           the enhancement of your natural beauty.
         </p>
-        <div className="border lg:w-1/3 ml-32 w-full h-64"></div>
+        <div className="border mb-8 w-full h-64 lg:mb-0 lg:w-1/3 lg:ml-32"></div>
       </div>
     </>
   );
