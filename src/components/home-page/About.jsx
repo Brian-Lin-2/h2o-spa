@@ -2,7 +2,7 @@ import { PropTypes } from "prop-types";
 
 export default function About({ setPage }) {
   return (
-    <div className="flex flex-col gap-6 items-center my-40 mx-8 bg-blue-2 lg:flex-row border lg:mx-0 lg:p-32">
+    <div className="flex flex-col gap-6 items-center my-40 mx-8 bg-about bg-cover lg:flex-row lg:mx-0 lg:p-32">
       <img className="lg:w-1/2" src="./images/hero-3.jpeg" />
       <div className="flex flex-col gap-4 text-center items-center lg:items-start lg:p-12 lg:text-start">
         <h1 className="text-3xl font-karla font-bold lg:text-7xl lg:-tracking-wide">
