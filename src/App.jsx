@@ -14,7 +14,9 @@ export default function App() {
     <div className="w-mobile lg:w-screen border">
       {page === "Home" && <Home setPage={setPage} setInitial={setInitial} />}
       {page === "About" && <About setPage={setPage} />}
-      {page === "Services" && <Services setPage={setPage} initial={initial} />}
+      {page === "Services" && (
+        <Services setPage={setPage} initial={initial} setInitial={setInitial} />
+      )}
       {page === "Contact" && <Contact setPage={setPage} />}
     </div>
   );
