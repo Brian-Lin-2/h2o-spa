@@ -3,6 +3,7 @@ import Card from "./Card";
 export default function Pedicure() {
   const foot = [
     { service: "Pedicure", cost: "27" },
+    { service: "Gel Pedicure", cost: "50" },
     { service: "Foot Massage (10 minutes)", cost: "12" },
     { service: "Paraffin Wrap", cost: "10" },
     { service: "Callus", cost: "12" },
