@@ -26,7 +26,7 @@ export default function Card({ service, cost, info, desc }) {
 
 Card.propTypes = {
   service: PropTypes.string,
-  cost: PropTypes.num,
+  cost: PropTypes.string,
   info: PropTypes.string,
-  desc: PropTypes.array.isRequired,
+  desc: PropTypes.array,
 };

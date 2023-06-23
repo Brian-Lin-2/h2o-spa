@@ -32,6 +32,7 @@ export default function Navbar({ initial }) {
               <NavbarItem
                 key={crypto.randomUUID()}
                 item={item}
+                active={active}
                 setActive={setActive}
               />
             );
