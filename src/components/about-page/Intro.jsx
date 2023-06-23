@@ -1,4 +1,6 @@
 export default function Intro() {
+  window.scrollTo(0, 0);
+
   return (
     <>
       <div className="flex flex-col bg-blue-2 items-center pt-12 lg:pt-24 lg:flex-row">
