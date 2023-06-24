@@ -17,7 +17,7 @@ export default function Intro() {
 
       <div className="flex flex-col-reverse my-12 mx-16 items-start justify-center text-center lg:text-start lg:flex-row lg:justify-start lg:mx-32 lg:my-16">
         <p className="text-dark-gray lg:w-2/3 lg:text-lg">
-          Located at Rockville Centre, New York. Our goal is to provide the
+          Located at Rockville Centre, New York, our goal is to provide the
           highest quality of Nail Salon and Spa services, offering environmental
           lifestyle products to each of our clients under the highest standards
           of business ethics. H2O Nail Spa is to create a unique nail spa in
@@ -33,7 +33,11 @@ export default function Intro() {
           helping you capture the tranquility of serenity and is dedicated to
           the enhancement of your natural beauty.
         </p>
-        <div className="border mb-8 w-full h-64 lg:mb-0 lg:w-1/3 lg:ml-32"></div>
+        <img
+          className="w-5/12 mt-2 ml-20"
+          src="./images/salon.jpeg"
+          alt="H2O"
+        />
       </div>
     </>
   );

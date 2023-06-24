@@ -1,4 +1,5 @@
-import Menu from "./Menu";
+import MenuDesktop from "./MenuDesktop";
+import MenuMobile from "./MenuMobile";
 import { PropTypes } from "prop-types";
 
 export default function Heading({ setPage, isHome, setInitial }) {
@@ -12,9 +13,9 @@ export default function Heading({ setPage, isHome, setInitial }) {
   return (
     <div className={style}>
       <img className="w-20" src="./images/logo.png" />
-      <img className="w-10 lg:hidden" src="./images/hamburger-icon.png" />
+      <MenuMobile />
       <h1 className="hidden gap-6 font-karla font-bold items-center tracking-wide lg:flex">
-        <Menu setPage={setPage} setInitial={setInitial} />
+        <MenuDesktop setPage={setPage} setInitial={setInitial} />
       </h1>
     </div>
   );

@@ -1,7 +1,7 @@
 import MenuItem from "./MenuItem";
 import { PropTypes } from "prop-types";
 
-export default function Menu({ setPage, setInitial }) {
+export default function MenuDesktop({ setPage, setInitial }) {
   const items = ["Home", "About", "Services", "Contact"];
 
   return (
@@ -20,7 +20,7 @@ export default function Menu({ setPage, setInitial }) {
   );
 }
 
-Menu.propTypes = {
+MenuDesktop.propTypes = {
   setPage: PropTypes.func.isRequired,
   setInitial: PropTypes.func.isRequired,
 };
