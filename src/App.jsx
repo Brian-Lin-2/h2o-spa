@@ -11,7 +11,7 @@ export default function App() {
   const [initial, setInitial] = useState("");
 
   return (
-    <div className="w-mobile lg:w-screen border">
+    <div>
       {page === "Home" && <Home setPage={setPage} setInitial={setInitial} />}
       {page === "About" && <About setPage={setPage} />}
       {page === "Services" && (

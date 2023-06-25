@@ -25,7 +25,7 @@ export default function Header({ setPage }) {
 
       <div>
         <Heading setPage={setPage} isHome={true} />
-        <div className="flex mb-80 mt-8 lg:flex-row lg:m-0 lg:gap-8 lg:pt-12 lg:pb-40 lg:w-1/2 lg:items-center">
+        <div className="flex mt-8 mb-96 lg:flex-row lg:m-0 lg:gap-8 lg:pt-12 lg:pb-40 lg:w-1/2 lg:items-center">
           <div className="text-center mt-2 lg:ml-48 lg:text-start">
             <h1 className="text-5xl mx-12 font-bold mb-1 font-karla lg:text-8xl lg:-tracking-wide">
               Nails You Will Love!
