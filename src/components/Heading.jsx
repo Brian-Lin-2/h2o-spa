@@ -13,7 +13,8 @@ export default function Heading({ setPage, isHome, setInitial }) {
   return (
     <div className={style}>
       <img className="w-20" src="./images/logo.png" />
-      <MenuMobile />
+      <MenuMobile setPage={setPage} setInitial={setInitial} />
+
       <h1 className="hidden gap-6 font-karla font-bold items-center tracking-wide lg:flex">
         <MenuDesktop setPage={setPage} setInitial={setInitial} />
       </h1>
@@ -24,5 +25,5 @@ export default function Heading({ setPage, isHome, setInitial }) {
 Heading.propTypes = {
   setPage: PropTypes.func.isRequired,
   isHome: PropTypes.bool,
-  setInitial: PropTypes.func.isRequired,
+  setInitial: PropTypes.func,
 };

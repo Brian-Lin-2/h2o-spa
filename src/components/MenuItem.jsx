@@ -31,5 +31,5 @@ export default function MenuItem({ item, setPage, setInitial }) {
 MenuItem.propTypes = {
   item: PropTypes.string,
   setPage: PropTypes.func.isRequired,
-  setInitial: PropTypes.func.isRequired,
+  setInitial: PropTypes.func,
 };

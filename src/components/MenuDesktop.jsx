@@ -22,5 +22,5 @@ export default function MenuDesktop({ setPage, setInitial }) {
 
 MenuDesktop.propTypes = {
   setPage: PropTypes.func.isRequired,
-  setInitial: PropTypes.func.isRequired,
+  setInitial: PropTypes.func,
 };
