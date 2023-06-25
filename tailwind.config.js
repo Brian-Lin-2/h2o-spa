@@ -5,7 +5,8 @@ export default {
     extend: {
       colors: {
         "white-2": "hsla(0, 0%, 100%, 80%)",
-        "blue-2": "rgb(207, 227, 248)",
+        "blue-1": "rgb(222, 234, 249)",
+        "blue-2": "rgb(185, 217, 248)",
         "blue-3": "rgb(0, 128, 255)",
         "blackish-blue": "rgb(22, 41, 62)",
         "navy-blue": "rgb(24, 48, 74)",
@@ -31,7 +32,10 @@ export default {
         waxing:
           "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./images/services/waxing.jpeg')",
         kids: "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./images/services/kids.jpeg')",
-        "hero-video": "url('./videos/hero-bg-mobile.png')",
+        "header-desktop":
+          "linear-gradient(to right, rgb(222, 234, 249), rgb(185, 217, 248))",
+        "header-mobile":
+          "linear-gradient(to bottom, rgb(222, 234, 249), rgb(185, 217, 248))",
         "about-desktop": "url('./images/about-bg-desktop.png')",
         "about-mobile": "url('./images/about-bg-mobile.png')",
         "header-bg": "linear-gradient(to right, ,rgb(207, 227, 248))",

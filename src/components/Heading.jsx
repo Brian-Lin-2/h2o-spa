@@ -4,7 +4,7 @@ import { PropTypes } from "prop-types";
 
 export default function Heading({ setPage, isHome, setInitial }) {
   let style =
-    "flex justify-between items-center p-10 bg-blue-2 lg:px-32 lg:pt-8";
+    "flex justify-between items-center p-10 bg-blue-1 lg:bg-header-desktop lg:px-32 lg:pt-8";
 
   if (isHome) {
     style = "flex justify-between items-center p-10 lg:px-32 lg:pt-8";

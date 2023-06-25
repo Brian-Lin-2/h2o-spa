@@ -23,7 +23,7 @@ export default function Navbar({ initial }) {
 
   return (
     <div className="">
-      <div className="bg-blue-2 font-bold">
+      <div className="font-bold bg-header-mobile lg:bg-header-desktop">
         <h1 className="text-6xl text-center font-karla py-16">Services</h1>
 
         <div className="grid gap-4 grid-cols-2 font-karla text-center pb-20 px-12 lg:grid-cols-3 lg:px-96 lg:gap-6">
