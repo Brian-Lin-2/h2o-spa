@@ -33,11 +33,7 @@ export default function Intro() {
           helping you capture the tranquility of serenity and is dedicated to
           the enhancement of your natural beauty.
         </p>
-        <img
-          className="w-5/12 mt-2 ml-20"
-          src="./images/salon.jpeg"
-          alt="H2O"
-        />
+        <img className="w-5/12 ml-20" src="./images/salon.jpeg" alt="H2O" />
       </div>
     </>
   );

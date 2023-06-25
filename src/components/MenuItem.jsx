@@ -4,10 +4,10 @@ import { PropTypes } from "prop-types";
 export default function MenuItem({ item, setPage, setInitial }) {
   const [active, setActive] = useState(false);
 
-  let menuBar = "invisible border-t-2 w-1/2";
+  let menuBar = "invisible border-t-2";
 
   if (active) {
-    menuBar = "border-t-2 w-1/2 border-blue-3";
+    menuBar = "border-t-2 lg:w-1/2 border-blue-3";
   }
 
   const handleClick = () => {

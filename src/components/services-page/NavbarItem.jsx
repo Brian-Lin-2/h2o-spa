@@ -5,7 +5,7 @@ export default function NavbarItem({ item, active, setActive }) {
     "border border-black p-2 rounded-full cursor-pointer hover:text-white hover:bg-black";
 
   if (item === "Kids") {
-    style += " col-start-2";
+    style += " relative left-1/2 lg:static lg:col-start-2";
   }
 
   if (item === active) {
