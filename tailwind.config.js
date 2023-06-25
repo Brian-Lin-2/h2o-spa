@@ -32,8 +32,8 @@ export default {
           "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./images/services/waxing.jpeg')",
         kids: "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./images/services/kids.jpeg')",
         "hero-video": "url(./videos/hero-bg.mp4)",
-        about: "url('./images/about-bg.png')",
-        "header-bg": "linear-gradient(to right, ,rgb(207, 227, 248))"
+        "about-desktop": "url('./images/about-bg-desktop.png')",
+        "header-bg": "linear-gradient(to right, ,rgb(207, 227, 248))",
       },
       width: {
         mobile: "375px",

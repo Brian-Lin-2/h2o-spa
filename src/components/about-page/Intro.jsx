@@ -20,7 +20,7 @@ export default function Intro() {
           Located at Rockville Centre, New York, our goal is to provide the
           highest quality of Nail Salon and Spa services, offering environmental
           lifestyle products to each of our clients under the highest standards
-          of business ethics. H2O Nail Spa is to create a unique nail spa in
+          of business ethics. H2O Nail & Spa creates a unique nail spa in
           markets that will attract people who are looking to have an enjoyable
           spa experience. Begun as a dream of its dedicated owner, we nurtured
           this dream, shared it with others, and built a thriving center
@@ -33,7 +33,7 @@ export default function Intro() {
           helping you capture the tranquility of serenity and is dedicated to
           the enhancement of your natural beauty.
         </p>
-        <img className="w-5/12 ml-20" src="./images/salon.jpeg" alt="H2O" />
+        <img className="w-5/12 ml-20" src="./images/salon.png" alt="H2O" />
       </div>
     </>
   );
