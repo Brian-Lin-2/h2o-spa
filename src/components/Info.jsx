@@ -7,7 +7,7 @@ export default function Info() {
   return (
     <>
       <div className="pb-32 pt-16">
-        <h1 className="text-center font-karla font-bold text-6xl mb-16">
+        <h1 className="text-center font-karla font-bold mb-16 text-4xl lg:text-6xl">
           Contact Us
         </h1>
         <div className="flex flex-col items-center lg:gap-6">
