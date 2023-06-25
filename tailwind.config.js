@@ -31,7 +31,7 @@ export default {
         waxing:
           "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./images/services/waxing.jpeg')",
         kids: "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./images/services/kids.jpeg')",
-        "hero-video": "url(./videos/hero-bg.mp4)",
+        "hero-video": "url('./videos/hero-bg-mobile.png')",
         "about-desktop": "url('./images/about-bg-desktop.png')",
         "about-mobile": "url('./images/about-bg-mobile.png')",
         "header-bg": "linear-gradient(to right, ,rgb(207, 227, 248))",
