@@ -8,6 +8,8 @@ export default function Footer() {
           <a
             className="hover:text-white"
             href="https://goo.gl/maps/xyuT4D5nPamzXv8E6"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             302 Sunrise Highway Rockville Centre, NY 11570
           </a>
@@ -25,6 +27,8 @@ export default function Footer() {
           <a
             className="hover:text-white"
             href="https://www.facebook.com/h2onail/"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             Like Us On Facebook!
           </a>
