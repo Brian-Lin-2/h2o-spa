@@ -4,7 +4,7 @@ export default function Intro() {
   return (
     <>
       <div className="flex flex-col bg-blue-2 items-center pt-12 lg:pt-24 lg:flex-row">
-        <img className="lg:hidden" src="./images/about-bg-mobile.png" alt="" />
+        <img className="lg:hidden" src="./images/hand-mobile.png" alt="" />
         <img
           className="hidden w-5/12 lg:block"
           src="./images/hands-about.png"
