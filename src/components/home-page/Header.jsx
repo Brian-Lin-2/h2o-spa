@@ -6,7 +6,7 @@ export default function Header({ setPage, setInitial }) {
     <>
       <div className="bg-hero-mobile bg-no-repeat bg-cover pb-[125vw] md:pb-[15vw] md:bg-hero-desktop">
         <Heading setPage={setPage} setInitial={setInitial} isHome={true} />
-        <div className="flex flex-col mt-20 text-center -tracking-wide md:mt-0 md:ml-[15vw] md:text-start md:w-1/2 border-red-500 md:items-center lg:mt-[5vw]">
+        <div className="flex flex-col mt-20 text-center -tracking-wide md:mt-0 md:ml-[15.5vw] md:text-start md:w-1/2 border-red-500 md:items-center lg:mt-[6.5vw]">
           <h1 className="text-[15vw] leading-none mx-[12vw] font-bold mb-1 font-karla md:ml-12 md:text-[6vw] md:leading-[5.5vw]">
             Nails You Will Love!
           </h1>
