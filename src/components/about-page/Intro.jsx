@@ -10,7 +10,7 @@ export default function Intro() {
           src="./images/hands-about.png"
           alt=""
         />
-        <h1 className="text-5xl font-karla font-bold mt-12 pb-20 md:text-7xl md:ml-48 md:-mt-20">
+        <h1 className="text-5xl font-karla font-bold mt-12 pb-20 md:text-[5vw] md:ml-[13.5vw] md:-mt-20">
           About Us
         </h1>
       </div>
