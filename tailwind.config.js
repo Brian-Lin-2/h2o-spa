@@ -39,6 +39,8 @@ export default {
         "about-desktop": "url('./images/about-bg-desktop.png')",
         "about-mobile": "url('./images/about-bg-mobile.png')",
         "header-bg": "linear-gradient(to right, ,rgb(207, 227, 248))",
+        "hero-desktop": "url('./gifs/hero-bg-desktop.gif')",
+        "hero-mobile": "url('./gifs/hero-bg-mobile.gif')",
       },
       width: {
         mobile: "375px",
