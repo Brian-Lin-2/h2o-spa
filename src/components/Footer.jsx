@@ -3,7 +3,7 @@ export default function Footer() {
     <div className="flex flex-col items-center gap-12 bg-black text-white-2 font-karla text-sm py-20 px-12 md:justify-between md:px-32 md:py-28 md:flex-row">
       <img className="w-20" src="./images/logo-white.png" alt="" />
       <div className="grid gap-10 text-xs mt-6 md:text-sm md:grid-cols-2 md:grid-rows-2 md:gap-2 md:-mr-20 md:mt-8">
-        <div className="flex flex-col text-center mx-16 gap-2 items-center md:mx-0 md:flex-row">
+        <div className="flex flex-col text-center mx-16 gap-2 items-center md:text-start md:mx-0 md:flex-row">
           <img className="w-8" src="./images/location-white.jpeg" />
           <a
             className="hover:text-white"
