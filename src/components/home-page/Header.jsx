@@ -5,7 +5,7 @@ export default function Header({ setPage }) {
   return (
     <>
       <video
-        className="absolute -z-10 -top-8 hidden lg:block"
+        className="absolute -z-10 -top-8 hidden md:block"
         autoPlay
         loop
         muted
@@ -14,7 +14,7 @@ export default function Header({ setPage }) {
         <source src="./videos/hero-bg-desktop.mp4" type="video/mp4" />
       </video>
       <video
-        className="absolute -z-10 -top-4 w-full lg:hidden"
+        className="absolute -z-10 -top-4 w-full md:hidden"
         autoPlay
         loop
         muted
@@ -25,12 +25,12 @@ export default function Header({ setPage }) {
 
       <div>
         <Heading setPage={setPage} isHome={true} />
-        <div className="flex mt-8 mb-96 lg:flex-row lg:m-0 lg:gap-8 lg:pt-12 lg:pb-40 lg:w-1/2 lg:items-center">
-          <div className="text-center mt-2 lg:ml-48 lg:text-start">
-            <h1 className="text-5xl mx-12 font-bold mb-1 font-karla lg:text-8xl lg:-tracking-wide">
+        <div className="flex mt-8 mb-96 md:flex-row md:m-0 md:gap-8 md:pt-12 md:pb-40 md:w-1/2 md:items-center">
+          <div className="text-center mt-2 md:ml-48 md:text-start">
+            <h1 className="text-5xl mx-12 font-bold mb-1 font-karla md:text-8xl md:-tracking-wide">
               Nails You Will Love!
             </h1>
-            <p className="font-verdana text-sm text-dark-gray mx-16 lg:mr-20 lg:text-lg">
+            <p className="font-verdana text-sm text-dark-gray mx-16 md:mr-20 md:text-md">
               Providing nail and spa services with the upmost care and
               cleanliness.
             </p>

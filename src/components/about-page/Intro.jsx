@@ -3,20 +3,20 @@ export default function Intro() {
 
   return (
     <>
-      <div className="flex flex-col items-center pt-12 bg-header-mobile lg:bg-header-desktop lg:pt-24 lg:flex-row">
-        <img className="lg:hidden" src="./images/hand-mobile.png" alt="" />
+      <div className="flex flex-col items-center pt-12 bg-header-mobile md:bg-header-desktop md:pt-24 md:flex-row">
+        <img className="md:hidden" src="./images/hand-mobile.png" alt="" />
         <img
-          className="hidden w-5/12 lg:block"
+          className="hidden w-5/12 md:block"
           src="./images/hands-about.png"
           alt=""
         />
-        <h1 className="text-5xl font-karla font-bold mt-12 pb-20 lg:text-7xl lg:ml-48 lg:-mt-20">
+        <h1 className="text-5xl font-karla font-bold mt-12 pb-20 md:text-7xl md:ml-48 md:-mt-20">
           About Us
         </h1>
       </div>
 
-      <div className="flex flex-col-reverse my-12 mx-16 items-start justify-center text-center lg:text-start lg:flex-row lg:justify-start lg:mx-32 lg:my-16">
-        <p className="text-dark-gray lg:w-2/3 lg:text-lg">
+      <div className="flex flex-col-reverse my-12 mx-16 items-center justify-center text-center md:text-start md:flex-row md:items-start md:justify-start md:mx-32 md:my-16">
+        <p className="text-dark-gray md:w-2/3 md:text-md">
           Located at Rockville Centre, New York, our goal is to provide the
           highest quality of Nail Salon and Spa services, offering environmental
           lifestyle products to each of our clients under the highest standards
@@ -33,7 +33,11 @@ export default function Intro() {
           helping you capture the tranquility of serenity and is dedicated to
           the enhancement of your natural beauty.
         </p>
-        <img className="w-5/12 ml-20" src="./images/salon.png" alt="H2O" />
+        <img
+          className="mb-8 w-5/6 md:w-5/12 md:mb-0 md:ml-20"
+          src="./images/salon.png"
+          alt="H2O"
+        />
       </div>
     </>
   );

@@ -9,7 +9,7 @@ export default function MenuMobile({ setPage, setInitial }) {
   return (
     <>
       <a className="hover:cursor-pointer" onClick={() => setOpenMenu(true)}>
-        <img className="w-10 lg:hidden" src="./images/hamburger-icon.png" />
+        <img className="w-10 md:hidden" src="./images/hamburger-icon.png" />
       </a>
 
       {openMenu && (

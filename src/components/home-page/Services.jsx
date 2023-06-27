@@ -30,16 +30,16 @@ export default function Services({ setPage, setInitial }) {
     {
       service: "Kids",
       image: "bg-kids bg-center",
-      position: "lg:col-start-2",
+      position: "md:col-start-2",
     },
   ];
 
   return (
-    <div className="flex flex-col items-center mt-20 mb-40 gap-8 font-karla text-center lg:gap-10 lg:my-40">
-      <div className="lg:flex lg:justify-between lg:items-center lg:w-8/12">
-        <h1 className="text-3xl font-bold lg:text-5xl">Services</h1>
+    <div className="flex flex-col items-center mt-20 mb-40 gap-8 font-karla text-center md:gap-10 md:my-40">
+      <div className="md:flex md:justify-between md:items-center md:w-8/12">
+        <h1 className="text-3xl font-bold md:text-5xl">Services</h1>
         <button
-          className="hidden border-2 border-black py-2 px-4 font-bold lg:block hover:bg-black hover:text-white"
+          className="hidden border-2 border-black py-2 px-4 font-bold md:block hover:bg-black hover:text-white"
           onClick={() => {
             setInitial("");
             setPage("Services");
@@ -48,7 +48,7 @@ export default function Services({ setPage, setInitial }) {
           See All Services
         </button>
       </div>
-      <li className="grid gap-6 lg:grid-cols-3 lg:grid-rows-3 lg:w-8/12">
+      <li className="grid gap-6 md:grid-cols-3 md:grid-rows-3 md:w-8/12">
         {services.map((service) => {
           return (
             <Card
@@ -63,7 +63,7 @@ export default function Services({ setPage, setInitial }) {
         })}
       </li>
       <button
-        className="border-2 border-black py-2 px-6 font-bold hover:bg-black hover:text-white lg:hidden"
+        className="border-2 border-black py-2 px-6 font-bold hover:bg-black hover:text-white md:hidden"
         onClick={() => {
           setInitial("");
           setPage("Services");

@@ -41,12 +41,12 @@ export default function Special() {
   ];
 
   return (
-    <div className="flex flex-col gap-20 mb-12 mt-6 lg:my-12 lg:gap-20">
+    <div className="flex flex-col gap-20 mb-12 mt-6 md:my-12 md:gap-20">
       <div>
-        <h2 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center lg:text-start lg:text-4xl lg:pb-4">
+        <h2 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center md:text-start md:text-4xl md:pb-4">
           Spa Special
         </h2>
-        <div className="grid gap-4 lg:grid-cols-2">
+        <div className="grid gap-4 md:grid-cols-2">
           {spa.map((type) => {
             return (
               <Card
@@ -65,7 +65,7 @@ export default function Special() {
         <h2 className="my-2 border-b pb-2 mb-8 mx-4 text-2xl text-karla font-bold text-center">
           Special Treatment
         </h2>
-        <div className="grid gap-4 lg:grid-cols-2">
+        <div className="grid gap-4 md:grid-cols-2">
           {treatment.map((type) => {
             return (
               <Card

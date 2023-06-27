@@ -8,7 +8,7 @@ export default function Contact({ setPage }) {
     <>
       <Heading setPage={setPage} />
 
-      <div className="bg-header-mobile lg:bg-header-desktop">
+      <div className="bg-header-mobile md:bg-header-desktop">
         <Info />
       </div>
 

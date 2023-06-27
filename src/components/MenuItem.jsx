@@ -7,7 +7,7 @@ export default function MenuItem({ item, setPage, setInitial }) {
   let menuBar = "invisible border-t-2";
 
   if (active) {
-    menuBar = "border-t-2 lg:w-1/2 border-blue-3";
+    menuBar = "border-t-2 md:w-1/2 border-blue-3";
   }
 
   const handleClick = () => {

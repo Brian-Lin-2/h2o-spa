@@ -23,10 +23,10 @@ export default function Navbar({ initial }) {
 
   return (
     <div className="">
-      <div className="font-bold bg-header-mobile lg:bg-header-desktop">
+      <div className="font-bold bg-header-mobile md:bg-header-desktop">
         <h1 className="text-6xl text-center font-karla py-16">Services</h1>
 
-        <div className="grid gap-4 grid-cols-2 font-karla text-center pb-20 px-12 lg:grid-cols-3 lg:px-96 lg:gap-6">
+        <div className="grid gap-4 grid-cols-2 font-karla text-center pb-20 px-12 md:grid-cols-3 md:px-96 md:gap-6">
           {items.map((item) => {
             return (
               <NavbarItem
@@ -41,7 +41,7 @@ export default function Navbar({ initial }) {
       </div>
 
       {active && (
-        <div className="p-8 lg:px-40">
+        <div className="p-8 md:px-40">
           {active === "Manicure" && <Manicure />}
           {active === "Pedicure" && <Pedicure />}
           {active === "Massage" && <Massage />}

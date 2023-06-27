@@ -22,15 +22,15 @@ export default function KidMenu() {
   ];
 
   return (
-    <div className="flex flex-col mb-12 mt-6 lg:my-12">
-      <h2 className="mt-2 border-b pb-2 mb-2 mx-4 text-2xl text-karla font-bold text-center lg:text-start lg:text-4xl lg:pb-4">
+    <div className="flex flex-col mb-12 mt-6 md:my-12">
+      <h2 className="mt-2 border-b pb-2 mb-2 mx-4 text-2xl text-karla font-bold text-center md:text-start md:text-4xl md:pb-4">
         Kids Menu
       </h2>
-      <p className="mb-4 text-xs text-dark-gray text-center mx-8 lg:text-start lg:text-base lg:ml-4 lg:pb-4">
+      <p className="mb-4 text-xs text-dark-gray text-center mx-8 md:text-start md:text-base md:ml-4 md:pb-4">
         (up to the age of 10)
       </p>
 
-      <div className="grid gap-4 lg:grid-cols-2">
+      <div className="grid gap-4 md:grid-cols-2">
         {kids.map((type) => {
           return (
             <Card
