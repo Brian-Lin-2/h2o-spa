@@ -14,7 +14,7 @@ export default function Header({ setPage }) {
         <source src="./videos/hero-bg-desktop.mp4" type="video/mp4" />
       </video>
       <video
-        className="absolute -z-10 -top-4 w-full md:hidden"
+        className="max-h-screen absolute -z-10 -top-4 w-full bg-blue-1 md:hidden"
         autoPlay
         loop
         muted
