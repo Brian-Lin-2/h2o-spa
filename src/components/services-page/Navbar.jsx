@@ -26,7 +26,7 @@ export default function Navbar({ initial }) {
       <div className="font-bold bg-header-mobile md:bg-header-desktop">
         <h1 className="text-6xl text-center font-karla py-16">Services</h1>
 
-        <div className="grid gap-4 grid-cols-2 font-karla text-center pb-20 px-12 md:grid-cols-3 md:px-96 md:gap-6">
+        <div className="grid gap-4 grid-cols-2 font-karla text-center pb-20 px-[12.5vw] md:grid-cols-3 md:px-[27.5vw] md:gap-6">
           {items.map((item) => {
             return (
               <NavbarItem

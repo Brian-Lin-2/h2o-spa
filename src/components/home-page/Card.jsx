@@ -7,7 +7,7 @@ export default function Card({
   setPage,
   setInitial,
 }) {
-  let style = `p-4 pt-10 pr-40 text-start bg-cover bg-no-repeat text-white md:pt-16 md:pb-6 md:pl-6 md:text-md cursor-pointer hover:opacity-50 ${image} ${position}`;
+  let style = `p-4 pt-10 pr-40 text-start bg-cover bg-no-repeat text-white lg:pt-16 lg:pb-6 lg:pl-6 lg:text-lg cursor-pointer hover:opacity-50 ${image} ${position}`;
 
   function handleClick() {
     setInitial(service);

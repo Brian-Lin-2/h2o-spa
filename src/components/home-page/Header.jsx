@@ -25,12 +25,12 @@ export default function Header({ setPage }) {
 
       <div>
         <Heading setPage={setPage} isHome={true} />
-        <div className="flex mt-8 mb-96 md:flex-row md:m-0 md:gap-8 md:pt-12 md:pb-40 md:w-1/2 md:items-center">
+        <div className="flex mt-8 mb-92 md:flex-row md:mt-0 md:gap-8 md:pt-12 md:w-1/2 md:items-center">
           <div className="text-center mt-2 md:ml-48 md:text-start">
             <h1 className="text-5xl mx-12 font-bold mb-1 font-karla md:text-8xl md:-tracking-wide">
               Nails You Will Love!
             </h1>
-            <p className="font-verdana text-sm text-dark-gray mx-16 md:mr-20 md:text-md">
+            <p className="font-verdana text-sm text-dark-gray mx-16 md:mr-20 md:text-lg">
               Providing nail and spa services with the upmost care and
               cleanliness.
             </p>
