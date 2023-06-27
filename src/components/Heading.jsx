@@ -1,6 +1,6 @@
+/* eslint-disable react/prop-types */
 import MenuDesktop from "./MenuDesktop";
 import MenuMobile from "./MenuMobile";
-import { PropTypes } from "prop-types";
 
 export default function Heading({ setPage, isHome, setInitial }) {
   let style =
@@ -21,9 +21,3 @@ export default function Heading({ setPage, isHome, setInitial }) {
     </div>
   );
 }
-
-Heading.propTypes = {
-  setPage: PropTypes.func.isRequired,
-  isHome: PropTypes.bool,
-  setInitial: PropTypes.func,
-};
