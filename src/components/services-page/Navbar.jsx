@@ -41,7 +41,7 @@ export default function Navbar({ initial }) {
       </div>
 
       {active && (
-        <div className="p-8 md:px-40">
+        <div className="p-8 md:px-[11vw]">
           {active === "Manicure" && <Manicure />}
           {active === "Pedicure" && <Pedicure />}
           {active === "Massage" && <Massage />}

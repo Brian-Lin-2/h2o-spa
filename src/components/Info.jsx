@@ -48,7 +48,7 @@ export default function Info() {
           </div>
 
           <button
-            className="border-2 border-black font-bold p-2 text-center font-karla mt-16 md:mt-8 md:text-[1.25vw] hover:bg-black hover:text-white"
+            className="border-2 border-black font-bold p-2 text-center font-karla mt-16 md:mt-[2.25vw] md:text-[1.25vw] hover:bg-black hover:text-white"
             onClick={() => setClick(true)}
           >
             Book An Appointment
