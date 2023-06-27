@@ -37,7 +37,7 @@ export default function Services({ setPage, setInitial }) {
   return (
     <div className="flex flex-col items-center mt-20 mb-40 gap-8 font-karla text-center md:gap-10 md:my-28">
       <div className="md:flex md:justify-between md:items-center md:w-8/12">
-        <h1 className="text-3xl font-bold md:text-[3.25vw]">Services</h1>
+        <h1 className="text-[10vw] font-bold md:text-[3.25vw]">Services</h1>
         <button
           className="hidden border-2 border-black py-2 px-4 font-bold text-[1.1vw] md:block hover:bg-black hover:text-white"
           onClick={() => {
@@ -63,7 +63,7 @@ export default function Services({ setPage, setInitial }) {
         })}
       </li>
       <button
-        className="border-2 border-black py-2 px-6 font-bold hover:bg-black hover:text-white md:hidden"
+        className="border-2 border-black py-2 px-6 font-bold text-[4.25vw] hover:bg-black hover:text-white md:hidden"
         onClick={() => {
           setInitial("");
           setPage("Services");

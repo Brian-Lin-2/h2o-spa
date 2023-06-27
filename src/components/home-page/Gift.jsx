@@ -1,6 +1,6 @@
 export default function Gift() {
   return (
-    <div className="flex flex-col gap-4 mx-8 my-40 md:flex-row-reverse md:mx-8 md:my-56 md:gap-0 md:items-center lg:ml-32">
+    <div className="flex flex-col gap-4 mx-8 my-60 md:flex-row-reverse md:mx-8 md:my-56 md:gap-0 md:items-center lg:ml-32">
       <img
         className="md:relative md:-ml-48 md:left-48 lg:scale-150 lg:ml-0"
         src="./images/gift-test.jpeg"
