@@ -13,7 +13,7 @@ export default function Services({ setPage, initial, setInitial }) {
 
   return (
     <div>
-      <Heading setPage={setPage} setInitial={setInitial} />
+      <Heading setPage={setPage} setInitial={setInitial} isHome={false} />
       <Navbar initial={initial} />
       <Footer />
     </div>

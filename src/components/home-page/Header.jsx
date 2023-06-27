@@ -1,7 +1,7 @@
 import Heading from "../Heading";
 import { PropTypes } from "prop-types";
 
-export default function Header({ setPage }) {
+export default function Header({ setPage, setInitial }) {
   return (
     <>
       <video
@@ -24,7 +24,7 @@ export default function Header({ setPage }) {
       </video>
 
       <div>
-        <Heading setPage={setPage} isHome={true} />
+        <Heading setPage={setPage} setInitial={setInitial} isHome={true} />
         <div className="flex flex-col mt-8 mb-96 text-center -tracking-wide md:mb-[25vw] md:mt-0 md:ml-[15vw] md:text-start md:w-1/2 border-red-500 md:items-center lg:mt-[5vw]">
           <h1 className="text-[3.5rem] leading-[3.2rem] mx-[12vw] font-bold mb-1 font-karla md:ml-12 md:text-[6vw] md:leading-[5.5vw]">
             Nails You Will Love!
@@ -41,4 +41,5 @@ export default function Header({ setPage }) {
 
 Header.propTypes = {
   setPage: PropTypes.func.isRequired,
+  setInitial: PropTypes.func.isRequired,
 };

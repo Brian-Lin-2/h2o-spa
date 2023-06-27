@@ -77,5 +77,5 @@ export default function Services({ setPage, setInitial }) {
 
 Services.propTypes = {
   setPage: PropTypes.func.isRequired,
-  setInitial: PropTypes.func,
+  setInitial: PropTypes.func.isRequired,
 };

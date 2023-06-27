@@ -9,7 +9,7 @@ import { PropTypes } from "prop-types";
 export default function Home({ setPage, setInitial }) {
   return (
     <>
-      <Header setPage={setPage} />
+      <Header setPage={setPage} setInitial={setInitial} />
       <Services setPage={setPage} setInitial={setInitial} />
       <About setPage={setPage} />
       <Gift />

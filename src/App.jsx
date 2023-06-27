@@ -13,11 +13,13 @@ export default function App() {
   return (
     <div>
       {page === "Home" && <Home setPage={setPage} setInitial={setInitial} />}
-      {page === "About" && <About setPage={setPage} />}
+      {page === "About" && <About setPage={setPage} setInitial={setInitial} />}
       {page === "Services" && (
         <Services setPage={setPage} initial={initial} setInitial={setInitial} />
       )}
-      {page === "Contact" && <Contact setPage={setPage} />}
+      {page === "Contact" && (
+        <Contact setPage={setPage} setInitial={setInitial} />
+      )}
     </div>
   );
 }
