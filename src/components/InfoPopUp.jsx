@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import Motion from "../animations/Motion";
 
 // Images.
 import girlCalling from "/src/assets/images/person-calling.jpg";
@@ -6,7 +7,10 @@ import closeIcon from "/src/assets/images/close-icon.svg";
 
 export default function InfoPopUp({ setClick }) {
   return (
-    <div className="border fixed inset-0 bg-dark-gray-transparent">
+    <Motion
+      duration="0"
+      className="border fixed inset-0 bg-dark-gray-transparent"
+    >
       <div className="flex flex-col bg-white items-center my-48 mx-[22vw] md:flex-row md:my-32 md:mx-[20vw] shadow-2xl">
         <img className="md:w-7/12" src={girlCalling} alt="girl-calling"></img>
 
@@ -26,7 +30,7 @@ export default function InfoPopUp({ setClick }) {
           </p>
         </div>
       </div>
-    </div>
+    </Motion>
   );
 }
 

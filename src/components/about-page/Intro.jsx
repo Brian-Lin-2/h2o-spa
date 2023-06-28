@@ -23,7 +23,7 @@ export default function Intro() {
 
       <Motion
         duration="1.5"
-        className="flex flex-col-reverse my-12 mx-16 items-center justify-center text-center md:text-start md:flex-row md:items-start md:justify-start md:mx-32 md:my-16"
+        className="flex flex-col-reverse my-12 mx-16 items-center justify-center text-center md:text-start md:flex-row md:items-start md:justify-start md:mx-32 md:my-20"
       >
         <p className="text-dark-gray md:w-2/3 md:text-md">
           Located at Rockville Centre, New York, our goal is to provide the
