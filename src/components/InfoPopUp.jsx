@@ -8,7 +8,7 @@ import closeIcon from "/src/assets/images/close-icon.svg";
 export default function InfoPopUp({ setClick }) {
   return (
     <Motion
-      duration="0.5"
+      duration="0.05"
       className="border fixed inset-0 bg-dark-gray-transparent"
     >
       <div className="flex flex-col bg-white items-center my-48 mx-[22vw] md:flex-row md:my-32 md:mx-[20vw] shadow-2xl">
