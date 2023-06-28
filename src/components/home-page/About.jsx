@@ -4,7 +4,7 @@ import { PropTypes } from "prop-types";
 export default function About({ setPage }) {
   return (
     <div className="flex flex-col gap-6 items-center my-40 px-16 p-12 bg-about-mobile bg-cover md:bg-about-desktop md:bg-cover md:flex-row md:p-[8.5vw]">
-      <img className="md:w-1/2" src="src/resources/images/hero-3.jpeg" />
+      <img className="md:w-1/2" src="/src/assets/images/hero-3.jpeg" />
       <Motion
         duration="1.5"
         className="flex flex-col gap-4 text-center items-center md:items-start md:p-12 md:text-start"

@@ -18,29 +18,29 @@ export default {
         verdana: ["verdana", "sans-serif"],
       },
       backgroundImage: {
-        hero: "url(./resources/images/hero.png)",
+        hero: "url(/src/assets/images/hero.png)",
         manicure:
-          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./resources/images/services/manicure.jpeg')",
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/src/assets/images/services/manicure.jpeg')",
         pedicure:
-          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./resources/images/services/pedicure.jpg')",
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/src/assets/images/services/pedicure.jpg')",
         massage:
-          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./resources/images/services/massage.jpeg')",
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/src/assets/images/services/massage.jpeg')",
         facial:
-          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./resources/images/services/facial.jpeg')",
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/src/assets/images/services/facial.jpeg')",
         special:
-          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./resources/images/services/special.jpeg')",
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/src/assets/images/services/special.jpeg')",
         waxing:
-          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./resources/images/services/waxing.jpeg')",
-        kids: "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('./resources/images/services/kids.jpeg')",
+          "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/src/assets/images/services/waxing.jpeg')",
+        kids: "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/src/assets/images/services/kids.jpeg')",
         "header-desktop":
           "linear-gradient(to right, rgb(222, 234, 249), rgb(185, 217, 248))",
         "header-mobile":
           "linear-gradient(to bottom, rgb(222, 234, 249), rgb(185, 217, 248))",
-        "about-desktop": "url('./resources/images/about-bg-desktop.png')",
-        "about-mobile": "url('./resources/images/about-bg-mobile.png')",
+        "about-desktop": "url('/src/assets/images/about-bg-desktop.png')",
+        "about-mobile": "url('/src/assets/images/about-bg-mobile.png')",
         "header-bg": "linear-gradient(to right, ,rgb(207, 227, 248))",
-        "hero-desktop": "url('./resources/gifs/hero-bg-desktop.gif')",
-        "hero-mobile": "url('./resources/gifs/hero-bg-mobile.gif')",
+        "hero-desktop": "url('/src/assets/gifs/hero-bg-desktop.gif')",
+        "hero-mobile": "url('/src/assets/gifs/hero-bg-mobile.gif')",
       },
       width: {
         mobile: "375px",
