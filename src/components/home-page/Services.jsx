@@ -53,7 +53,7 @@ export default function Services({ setPage, setInitial }) {
         </button>
       </Motion>
       <Motion
-        duration="2"
+        duration="1.75"
         className="grid gap-6 md:grid-cols-3 md:grid-rows-3 md:w-8/12"
       >
         {services.map((service) => {
