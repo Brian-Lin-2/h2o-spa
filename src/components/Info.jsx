@@ -1,6 +1,11 @@
 import InfoPopUp from "./InfoPopUp";
 import { useState } from "react";
 
+// Images
+import location from "/src/assets/images/location.svg";
+import clock from "/src/assets/images/clock.svg";
+import phone from "/src/assets/images/phone.png";
+
 export default function Info() {
   const [click, setClick] = useState(false);
 
@@ -13,7 +18,7 @@ export default function Info() {
         <div className="flex flex-col items-center md:gap-6">
           <div className="grid gap-20 md:grid-cols-3 md:grid-rows-1 md:mx-[20vw] md:items-center md:gap-0">
             <div className="flex flex-col items-center justify-center text-center mx-16 md:mx-8">
-              <img className="w-12" src="/src/assets/images/location.svg" />
+              <img className="w-12" src={location} />
               <h3 className="font-karla text-xl md:text-[1.4vw] md:leading-tight font-bold">
                 Location
               </h3>
@@ -23,7 +28,7 @@ export default function Info() {
             </div>
 
             <div className="flex flex-col items-center justify-center text-center">
-              <img className="w-12" src="/src/assets/images/clock.svg" />
+              <img className="w-12" src={clock} />
               <h3 className="font-karla text-xl md:text-[1.4vw] md:leading-tight font-bold">
                 Hours
               </h3>
@@ -35,7 +40,7 @@ export default function Info() {
             </div>
 
             <div className="flex flex-col items-center justify-center text-center">
-              <img className="w-12" src="/src/assets/images/phone.png" />
+              <img className="w-12" src={phone} />
               <h3 className="font-karla text-xl md:text-[1.4vw] md:leading-tight font-bold">
                 Contact
               </h3>

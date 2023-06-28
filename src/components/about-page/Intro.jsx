@@ -1,3 +1,4 @@
+// Images.
 import handMobile from "/src/assets/images/hand-mobile.png";
 import handDesktop from "/src/assets/images/hands-about.png";
 import salon from "/src/assets/images/salon.png";

@@ -1,19 +1,19 @@
 import PropTypes from "prop-types";
 
+// Images.
+import girlCalling from "/src/assets/images/person-calling.jpg";
+import closeIcon from "/src/assets/images/close-icon.svg";
+
 export default function InfoPopUp({ setClick }) {
   return (
     <div className="border fixed inset-0 bg-dark-gray-transparent">
       <div className="flex flex-col bg-white items-center my-48 mx-[22vw] md:flex-row md:my-32 md:mx-[20vw] shadow-2xl">
-        <img
-          className="md:w-7/12"
-          src="./images/person-calling.jpg"
-          alt="girl-calling"
-        ></img>
+        <img className="md:w-7/12" src={girlCalling} alt="girl-calling"></img>
 
         <a onClick={() => setClick(false)}>
           <img
             className="w-[5vw] relative bottom-[40vw] left-[22vw] md:w-[3.25vw] md:bottom-[11vw] md:left-[21vw] hover:cursor-pointer"
-            src="./images/close-icon.svg"
+            src={closeIcon}
           ></img>
         </a>
 

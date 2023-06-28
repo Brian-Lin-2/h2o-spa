@@ -1,10 +1,13 @@
 import Motion from "../../animations/Motion";
 import { PropTypes } from "prop-types";
 
+// Images.
+import hero from "/src/assets/images/hero-3.jpeg";
+
 export default function About({ setPage }) {
   return (
     <div className="flex flex-col gap-6 items-center my-40 px-16 p-12 bg-about-mobile bg-cover md:bg-about-desktop md:bg-cover md:flex-row md:p-[8.5vw]">
-      <img className="md:w-1/2" src="/src/assets/images/hero-3.jpeg" />
+      <img className="md:w-1/2" src={hero} />
       <Motion
         duration="1.5"
         className="flex flex-col gap-4 text-center items-center md:items-start md:p-12 md:text-start"
