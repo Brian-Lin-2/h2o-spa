@@ -6,7 +6,7 @@ export default function Info() {
 
   return (
     <>
-      <div className="pb-32 pt-16">
+      <div className="pb-32 pt-32">
         <h1 className="text-center font-karla font-bold mb-16 text-4xl md:text-[4.25vw]">
           Contact Us
         </h1>

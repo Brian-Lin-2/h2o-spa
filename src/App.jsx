@@ -11,7 +11,7 @@ export default function App() {
   const [initial, setInitial] = useState("");
 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       {page === "Home" && <Home setPage={setPage} setInitial={setInitial} />}
       {page === "About" && <About setPage={setPage} setInitial={setInitial} />}
       {page === "Services" && (
