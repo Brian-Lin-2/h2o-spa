@@ -12,7 +12,7 @@ export default function Heading({ setPage, setInitial, isHome }) {
 
   return (
     <div className={style}>
-      <img className="w-20" src="./images/logo.png" />
+      <img className="w-20" src="src/resources/images/logo.png" />
       <MenuMobile setPage={setPage} setInitial={setInitial} />
 
       <h1 className="hidden gap-6 font-karla font-bold items-center tracking-wide md:flex">

@@ -5,7 +5,7 @@ export default function Gift() {
     <div className="flex flex-col gap-4 mx-8 my-60 md:flex-row-reverse md:mx-8 md:my-56 md:gap-0 md:items-center lg:ml-32">
       <img
         className="md:relative md:-ml-48 md:left-48 md:scale-75 lg:scale-150 lg:ml-0"
-        src="./images/giftcard.png"
+        src="src/resources/images/giftcard.png"
         alt="gift-card"
       />
       <Motion

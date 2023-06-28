@@ -13,7 +13,7 @@ export default function Info() {
         <div className="flex flex-col items-center md:gap-6">
           <div className="grid gap-20 md:grid-cols-3 md:grid-rows-1 md:mx-[20vw] md:items-center md:gap-0">
             <div className="flex flex-col items-center justify-center text-center mx-16 md:mx-8">
-              <img className="w-12" src="./images/location.svg" />
+              <img className="w-12" src="src/resources/images/location.svg" />
               <h3 className="font-karla text-xl md:text-[1.4vw] md:leading-tight font-bold">
                 Location
               </h3>
@@ -23,7 +23,7 @@ export default function Info() {
             </div>
 
             <div className="flex flex-col items-center justify-center text-center">
-              <img className="w-12" src="./images/clock.svg" />
+              <img className="w-12" src="src/resources/images/clock.svg" />
               <h3 className="font-karla text-xl md:text-[1.4vw] md:leading-tight font-bold">
                 Hours
               </h3>
@@ -35,7 +35,7 @@ export default function Info() {
             </div>
 
             <div className="flex flex-col items-center justify-center text-center">
-              <img className="w-12" src="./images/phone.png" />
+              <img className="w-12" src="src/resources/images/phone.png" />
               <h3 className="font-karla text-xl md:text-[1.4vw] md:leading-tight font-bold">
                 Contact
               </h3>
