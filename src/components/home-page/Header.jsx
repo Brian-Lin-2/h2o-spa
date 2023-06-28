@@ -6,9 +6,7 @@ export default function Header({ setPage, setInitial }) {
   return (
     <>
       <div className="bg-hero-mobile bg-no-repeat bg-cover pb-[125vw] md:pb-[15vw] md:bg-hero-desktop">
-        <Motion duration="0.75" className="">
-          <Heading setPage={setPage} setInitial={setInitial} isHome={true} />
-        </Motion>
+        <Heading setPage={setPage} setInitial={setInitial} isHome={true} />
         <Motion
           duration="1.25"
           className="flex flex-col mt-20 text-center -tracking-wide md:mt-0 md:ml-[15.5vw] md:text-start md:w-1/2 border-red-500 md:items-center lg:mt-[6.5vw]"

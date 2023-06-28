@@ -1,4 +1,5 @@
 import InfoPopUp from "./InfoPopUp";
+import Motion from "../animations/Motion";
 import { useState } from "react";
 
 // Images
@@ -11,7 +12,7 @@ export default function Info() {
 
   return (
     <>
-      <div className="pb-32 pt-32">
+      <Motion duration="1.5" className="pb-32 pt-32">
         <h1 className="text-center font-karla font-bold mb-16 text-4xl md:text-[4.25vw]">
           Contact Us
         </h1>
@@ -59,7 +60,7 @@ export default function Info() {
             Book An Appointment
           </button>
         </div>
-      </div>
+      </Motion>
       {click && <InfoPopUp setClick={setClick} />}
     </>
   );
