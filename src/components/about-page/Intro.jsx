@@ -1,19 +1,15 @@
+import handMobile from "/src/assets/images/hand-mobile.png";
+import handDesktop from "/src/assets/images/hands-about.png";
+import salon from "/src/assets/images/salon.png";
+
 export default function Intro() {
   window.scrollTo(0, 0);
 
   return (
     <>
       <div className="flex flex-col items-center pt-12 bg-header-mobile md:bg-header-desktop md:pt-24 md:flex-row">
-        <img
-          className="md:hidden"
-          src="/src/assets/images/hand-mobile.png"
-          alt=""
-        />
-        <img
-          className="hidden w-5/12 md:block"
-          src="/src/assets/images/hands-about.png"
-          alt=""
-        />
+        <img className="md:hidden" src={handMobile} alt="" />
+        <img className="hidden w-5/12 md:block" src={handDesktop} alt="" />
         <h1 className="text-5xl font-karla font-bold mt-12 pb-20 md:text-[5vw] md:ml-[13.5vw] md:-mt-20">
           About Us
         </h1>
@@ -39,7 +35,7 @@ export default function Intro() {
         </p>
         <img
           className="mb-8 w-5/6 md:w-5/12 md:mb-0 md:ml-20"
-          src="/src/assets/images/salon.png"
+          src={salon}
           alt="H2O"
         />
       </div>
