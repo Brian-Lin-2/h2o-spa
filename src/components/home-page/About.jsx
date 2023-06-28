@@ -1,10 +1,14 @@
+import Motion from "../../animations/Motion";
 import { PropTypes } from "prop-types";
 
 export default function About({ setPage }) {
   return (
     <div className="flex flex-col gap-6 items-center my-40 px-16 p-12 bg-about-mobile bg-cover md:bg-about-desktop md:bg-cover md:flex-row md:p-[8.5vw]">
       <img className="md:w-1/2" src="./images/hero-3.jpeg" />
-      <div className="flex flex-col gap-4 text-center items-center md:items-start md:p-12 md:text-start">
+      <Motion
+        duration="1.5"
+        className="flex flex-col gap-4 text-center items-center md:items-start md:p-12 md:text-start"
+      >
         <h1 className="text-4xl font-karla font-bold md:text-[5vw] md:leading-none md:-tracking-wide">
           Who We Are
         </h1>
@@ -20,7 +24,7 @@ export default function About({ setPage }) {
         >
           Learn More
         </button>
-      </div>
+      </Motion>
     </div>
   );
 }

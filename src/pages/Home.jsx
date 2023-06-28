@@ -4,6 +4,7 @@ import About from "../components/home-page/About";
 import Services from "../components/home-page/Services";
 import Gift from "../components/home-page/Gift";
 import Footer from "../components/Footer";
+import Motion from "../animations/Motion";
 import { PropTypes } from "prop-types";
 
 export default function Home({ setPage, setInitial }) {
@@ -13,7 +14,9 @@ export default function Home({ setPage, setInitial }) {
       <Services setPage={setPage} setInitial={setInitial} />
       <About setPage={setPage} />
       <Gift />
-      <Info setPage={setPage} />
+      <Motion duration="1.5">
+        <Info setPage={setPage} />
+      </Motion>
       <Footer />
     </>
   );

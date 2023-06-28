@@ -1,7 +1,6 @@
 import MenuDesktop from "./MenuDesktop";
 import MenuMobile from "./MenuMobile";
 import PropTypes from "prop-types";
-import Motion from "../animations/Motion";
 
 export default function Heading({ setPage, setInitial, isHome }) {
   let style =
@@ -12,14 +11,14 @@ export default function Heading({ setPage, setInitial, isHome }) {
   }
 
   return (
-    <Motion className={style}>
+    <div className={style}>
       <img className="w-20" src="./images/logo.png" />
       <MenuMobile setPage={setPage} setInitial={setInitial} />
 
       <h1 className="hidden gap-6 font-karla font-bold items-center tracking-wide md:flex">
         <MenuDesktop setPage={setPage} setInitial={setInitial} />
       </h1>
-    </Motion>
+    </div>
   );
 }
 

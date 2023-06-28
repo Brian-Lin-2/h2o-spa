@@ -3,12 +3,14 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import { PropTypes } from "prop-types";
 
-const fadeUp = {
-  visible: { opacity: 1, y: 0, transition: { duration: 1 } },
-  hidden: { opacity: 0, y: -50 },
-};
+export default function Motion({ className, children, duration }) {
+  const time = duration;
 
-export default function Motion({ className, children }) {
+  const fadeDown = {
+    visible: { opacity: 1, y: 0, transition: { duration: time } },
+    hidden: { opacity: 0, y: -25 },
+  };
+
   const control = useAnimation();
   const [ref, inView] = useInView();
 
@@ -21,7 +23,7 @@ export default function Motion({ className, children }) {
   return (
     <motion.div
       ref={ref}
-      variants={fadeUp}
+      variants={fadeDown}
       animate={control}
       initial="hidden"
       className={className}
@@ -34,4 +36,5 @@ export default function Motion({ className, children }) {
 Motion.propTypes = {
   className: PropTypes.string,
   children: PropTypes.array,
+  duration: PropTypes.string,
 };

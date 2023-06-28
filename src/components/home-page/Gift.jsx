@@ -1,3 +1,5 @@
+import Motion from "../../animations/Motion";
+
 export default function Gift() {
   return (
     <div className="flex flex-col gap-4 mx-8 my-60 md:flex-row-reverse md:mx-8 md:my-56 md:gap-0 md:items-center lg:ml-32">
@@ -6,7 +8,10 @@ export default function Gift() {
         src="./images/giftcard.png"
         alt="gift-card"
       />
-      <div className="text-center md:text-start lg:mr-[1.25vw] lg:ml-[2.25vw]">
+      <Motion
+        duration="1.5"
+        className="text-center md:text-start lg:mr-[1.25vw] lg:ml-[2.25vw]"
+      >
         <h1 className="mb-2 text-3xl font-karla font-bold md:text-[6.75vw] md:leading-none md:-tracking-wide">
           The Best Gift.
         </h1>
@@ -14,7 +19,7 @@ export default function Gift() {
           Delight your friends, family, or lover with an H2O Nail & Spa gift
           card! Gift cards can be purchased in person at our salon.
         </p>
-      </div>
+      </Motion>
     </div>
   );
 }
