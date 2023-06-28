@@ -15,7 +15,7 @@ export default function Intro() {
         <img className="hidden w-5/12 md:block" src={handDesktop} alt="" />
         <Motion
           duration="1.5"
-          className="text-5xl font-karla font-bold mt-12 pb-20 md:text-[5vw] md:ml-[13.5vw] md:-mt-20"
+          className="text-5xl font-karla font-bold mt-20 pb-32 md:text-[5vw] md:ml-[13.5vw] md:-mt-20"
         >
           About Us
         </Motion>
@@ -23,7 +23,7 @@ export default function Intro() {
 
       <Motion
         duration="1.5"
-        className="flex flex-col-reverse my-12 mx-16 items-center justify-center text-center md:text-start md:flex-row md:items-start md:justify-start md:mx-32 md:my-20"
+        className="flex flex-col-reverse my-20 mx-16 items-center justify-center text-center md:text-start md:flex-row md:items-start md:justify-start md:mx-32"
       >
         <p className="text-dark-gray md:w-2/3 md:text-md">
           Located at Rockville Centre, New York, our goal is to provide the

@@ -18,7 +18,6 @@ export default {
         verdana: ["verdana", "sans-serif"],
       },
       backgroundImage: {
-        hero: "url(/src/assets/images/hero.png)",
         manicure:
           "linear-gradient(to right, hsla(0, 0%, 0%, 50%), hsla(0, 0%, 100%, 0%)), url('/src/assets/images/services/manicure.jpeg')",
         pedicure:
