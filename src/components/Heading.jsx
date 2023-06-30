@@ -19,10 +19,10 @@ export default function Heading({ setPage, setInitial, isHome }) {
         duration="0.75"
         className="flex justify-between items-center p-10 md:px-32 md:pt-8"
       >
-        <img className="w-24" src={logo} />
+        <img className="w-24 lg:w-28" src={logo} />
         <MenuMobile setPage={setPage} setInitial={setInitial} />
 
-        <h1 className="hidden gap-6 font-karla font-bold items-center tracking-wide md:flex">
+        <h1 className="hidden gap-6 font-karla font-bold items-center tracking-wide md:flex lg:text-lg">
           <MenuDesktop setPage={setPage} setInitial={setInitial} />
         </h1>
       </Motion>

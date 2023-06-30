@@ -21,7 +21,7 @@ export default function MenuMobile({ setPage, setInitial }) {
         <div className="top-0 right-0 bottom-0 left-0 fixed z-10 bg-black p-6">
           <div className="flex justify-between items-center mx-5 my-4">
             <a className="hover:cursor-pointer">
-              <img className="w-20" src={logoWhite} alt="H2O" />
+              <img className="w-24" src={logoWhite} alt="H2O" />
             </a>
 
             <a
