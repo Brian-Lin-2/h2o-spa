@@ -18,7 +18,7 @@ export default function MenuMobile({ setPage, setInitial }) {
       </a>
 
       {openMenu && (
-        <div className="top-0 right-0 bottom-0 left-0 fixed z-10 bg-black p-6">
+        <div className="top-0 right-0 bottom-0 left-0 fixed z-10 bg-black p-6 pb-96">
           <div className="flex justify-between items-center mx-5 my-4">
             <a className="hover:cursor-pointer">
               <img className="w-24" src={logoWhite} alt="H2O" />
@@ -32,7 +32,7 @@ export default function MenuMobile({ setPage, setInitial }) {
             </a>
           </div>
 
-          <div className="w-5/12 flex flex-col items-start gap-6 mx-6 mt-40 text-2xl font-karla uppercase text-white">
+          <div className="w-5/12 flex flex-col items-start gap-6 mx-6 mt-40 text-3xl font-karla uppercase text-white">
             {items.map((item) => (
               <div key={crypto.randomUUID()} onClick={() => setOpenMenu(false)}>
                 <MenuItem
