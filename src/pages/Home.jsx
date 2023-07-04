@@ -1,4 +1,4 @@
-import Header from "../components/home-page/Header";
+import Slider from "../components/home-page/Slider";
 import Info from "../components/Info";
 import About from "../components/home-page/About";
 import Services from "../components/home-page/Services";
@@ -11,7 +11,7 @@ export default function Home({ setPage, setInitial }) {
 
   return (
     <>
-      <Header setPage={setPage} setInitial={setInitial} />
+      <Slider setPage={setPage} setInitial={setInitial} />
       <Services setPage={setPage} setInitial={setInitial} />
       <About setPage={setPage} />
       <Gift />
