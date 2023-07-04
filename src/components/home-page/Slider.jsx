@@ -26,7 +26,7 @@ export default function Slider({ setPage, setInitial }) {
       "invisible flex flex-col mt-20 text-center -tracking-wide md:mt-0 md:ml-[15.5vw] md:text-start md:w-1/2 border-red-500 md:items-center lg:mt-[5vw]";
   }
 
-  setInterval(() => {
+  const interval = setInterval(() => {
     if (num == pictures.length - 2) {
       setNum(-1);
     } else {
@@ -34,6 +34,9 @@ export default function Slider({ setPage, setInitial }) {
     }
 
     setCurrentPic(pictures[num + 1]);
+
+    // Makes sure multiple intervals don't stack up.
+    clearInterval(interval);
   }, 3000);
 
   return (
