@@ -1,16 +1,10 @@
 import { PropTypes } from "prop-types";
 
-export default function SliderButton({
-  pictures,
-  setCurrentPic,
-  setNum,
-  activeNum,
-  num,
-}) {
+export default function SliderButton({ picture, currentPic, setCurrentPic }) {
   let style =
     "w-5 h-5 border-2 border-black rounded-full cursor-pointer hover:bg-black";
 
-  if (num === activeNum) {
+  if (picture === currentPic) {
     style += " bg-black";
   }
 
@@ -18,17 +12,14 @@ export default function SliderButton({
     <a
       className={style}
       onClick={() => {
-        setCurrentPic(pictures[num]);
-        setNum(num);
+        setCurrentPic(picture);
       }}
     ></a>
   );
 }
 
 SliderButton.propTypes = {
-  pictures: PropTypes.array.isRequired,
+  picture: PropTypes.string,
+  currentPic: PropTypes.string,
   setCurrentPic: PropTypes.func.isRequired,
-  setNum: PropTypes.func.isRequired,
-  activeNum: PropTypes.num,
-  num: PropTypes.num,
 };

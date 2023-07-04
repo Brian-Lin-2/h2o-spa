@@ -46,41 +46,16 @@ export default function Slider({ setPage, setInitial }) {
         </Motion>
 
         <div className="flex gap-3 justify-center mt-[125vw] pb-8 md:mt-[15vw] md:pb-4">
-          <SliderButton
-            pictures={pictures}
-            setCurrentPic={setCurrentPic}
-            setNum={setNum}
-            activeNum={num}
-            num={0}
-          />
-          <SliderButton
-            pictures={pictures}
-            setCurrentPic={setCurrentPic}
-            setNum={setNum}
-            activeNum={num}
-            num={1}
-          />
-          <SliderButton
-            pictures={pictures}
-            setCurrentPic={setCurrentPic}
-            setNum={setNum}
-            activeNum={num}
-            num={2}
-          />
-          <SliderButton
-            pictures={pictures}
-            setCurrentPic={setCurrentPic}
-            setNum={setNum}
-            activeNum={num}
-            num={3}
-          />
-          <SliderButton
-            pictures={pictures}
-            setCurrentPic={setCurrentPic}
-            setNum={setNum}
-            activeNum={num}
-            num={4}
-          />
+          {pictures.map((picture) => {
+            return (
+              <SliderButton
+                key={crypto.randomUUID()}
+                picture={picture}
+                currentPic={currentPic}
+                setCurrentPic={setCurrentPic}
+              />
+            );
+          })}
         </div>
       </div>
     </>
