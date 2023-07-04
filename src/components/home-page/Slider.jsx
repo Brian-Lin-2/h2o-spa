@@ -26,10 +26,15 @@ export default function Slider({ setPage, setInitial }) {
       "invisible flex flex-col mt-20 text-center -tracking-wide md:mt-0 md:ml-[15.5vw] md:text-start md:w-1/2 border-red-500 md:items-center lg:mt-[5vw]";
   }
 
-  // setInterval(() => {
-  //   setNum((num + 1) % (pictures.length - 1));
-  //   setCurrentPic(pictures[num + 1]);
-  // }, 3000);
+  setInterval(() => {
+    if (num == pictures.length - 2) {
+      setNum(-1);
+    } else {
+      setNum(num + 1);
+    }
+
+    setCurrentPic(pictures[num + 1]);
+  }, 3000);
 
   return (
     <>
