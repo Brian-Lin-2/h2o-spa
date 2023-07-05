@@ -43,7 +43,7 @@ export default {
         place: "url('/src/assets/images/place.png')",
         lounge: "url('/src/assets/images/lounge.png')",
         colors: "url('/src/assets/images/colors.png')",
-        nails: "url('src/assets/images/nails.png')",
+        nails: "url('/src/assets/images/nails.png')",
       },
       width: {
         mobile: "375px",
