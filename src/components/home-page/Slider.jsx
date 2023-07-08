@@ -7,9 +7,9 @@ import { PropTypes } from "prop-types";
 export default function Slider({ setPage, setInitial }) {
   const pictures = [
     "bg-hero-mobile md:bg-hero-desktop",
-    "bg-place",
-    "bg-colors",
-    "bg-lounge",
+    "bg-place-mobile md:bg-place-desktop",
+    "bg-colors-mobile md:bg-colors-desktop",
+    "bg-lounge-mobile md:bg-lounge-desktop",
     "bg-nails",
   ];
 
