@@ -7,7 +7,7 @@ import { PropTypes } from "prop-types";
 export default function Slider({ setPage, setInitial }) {
   const pictures = [
     "bg-hero-mobile md:bg-hero-desktop",
-    "bg-place-mobile bg-center md:bg-place-desktop",
+    "bg-place-mobile md:bg-place-desktop",
     "bg-colors-mobile md:bg-colors-desktop",
     "bg-lounge-mobile md:bg-lounge-desktop",
     "bg-nails",
@@ -17,12 +17,12 @@ export default function Slider({ setPage, setInitial }) {
 
   let bgPic = "bg-no-repeat bg-cover md:bg-center " + pictures[currentPic];
   let headerText =
-    "flex flex-col mt-20 text-center -tracking-wide md:mt-0 md:ml-[15.5vw] md:text-start md:w-1/2 md:items-center lg:mt-[5vw]";
+    "flex flex-col mt-8 text-center -tracking-wide md:mt-0 md:ml-[15.5vw] md:text-start md:w-1/2 md:items-center lg:mt-[5vw]";
 
   // Text is invisible when it's not the first picture.
   if (pictures[currentPic] !== pictures[0]) {
     headerText =
-      "invisible flex flex-col mt-20 text-center -tracking-wide md:mt-0 md:ml-[15.5vw] md:text-start md:w-1/2 border-red-500 md:items-center lg:mt-[5vw]";
+      "invisible flex flex-col mt-8 text-center -tracking-wide md:mt-0 md:ml-[15.5vw] md:text-start md:w-1/2 border-red-500 md:items-center lg:mt-[5vw]";
   }
 
   // Changes the slider image.
@@ -39,16 +39,16 @@ export default function Slider({ setPage, setInitial }) {
       <div className={bgPic}>
         <Heading setPage={setPage} setInitial={setInitial} isHome={true} />
         <Motion duration="1.25" className={headerText}>
-          <h1 className="text-[16vw] leading-none mx-[12vw] font-bold mb-1 font-karla md:ml-12 md:text-[6.5vw] md:leading-[5.5vw]">
+          <h1 className="text-[14vw] leading-none mx-[12vw] font-bold mb-1 font-karla md:ml-12 md:text-[6.5vw] md:leading-[5.5vw]">
             Nails You Will Love!
           </h1>
-          <p className="font-verdana text-[4vw] text-dark-gray mx-[16vw] md:ml-16 md:mr-[16vw] md:text-[1.5vw] md:leading-[2vw]">
+          <p className="font-verdana text-[3.5vw] mx-[20vw] text-dark-gray md:ml-16 md:mr-[16vw] md:text-[1.5vw] md:leading-[2vw]">
             Providing nail and spa services with the upmost care and
             cleanliness.
           </p>
         </Motion>
 
-        <div className="flex gap-3 justify-center mt-[125vw] pb-8 md:mt-[15vw] md:pb-4">
+        <div className="flex gap-3 justify-center mt-[52vw] pb-8 md:mt-[15vw] md:pb-4">
           {pictures.map((picture, index) => {
             return (
               <SliderButton
