@@ -27,7 +27,7 @@ export default function SliderButton({
 SliderButton.propTypes = {
   pictures: PropTypes.array,
   picture: PropTypes.string,
-  currentPic: PropTypes.num,
+  currentPic: PropTypes.number,
   setCurrentPic: PropTypes.func.isRequired,
-  index: PropTypes.num,
+  index: PropTypes.number,
 };
