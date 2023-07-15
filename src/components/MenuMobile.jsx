@@ -32,7 +32,7 @@ export default function MenuMobile({ setPage, setInitial }) {
             </a>
           </div>
 
-          <div className="w-5/12 flex flex-col items-start gap-6 mx-6 mt-40 text-3xl font-karla uppercase text-white">
+          <div className="w-5/12 flex flex-col items-start gap-6 mx-6 mt-24 text-3xl font-karla uppercase text-white">
             {items.map((item) => (
               <div key={crypto.randomUUID()} onClick={() => setOpenMenu(false)}>
                 <MenuItem
