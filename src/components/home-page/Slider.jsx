@@ -26,23 +26,23 @@ export default function Slider({ setPage, setInitial }) {
   }
 
   // Changes the slider image.
-  useEffect(() => {
-    let interval = setInterval(() => {
-      setCurrentPic(currentPic === pictures.length - 1 ? 0 : currentPic + 1);
-    }, 3000);
+  // useEffect(() => {
+  //   let interval = setInterval(() => {
+  //     setCurrentPic(currentPic === pictures.length - 1 ? 0 : currentPic + 1);
+  //   }, 3000);
 
-    return () => clearInterval(interval);
-  }, [currentPic]);
+  //   return () => clearInterval(interval);
+  // }, [currentPic]);
 
   return (
     <>
       <div className={bgPic}>
         <Heading setPage={setPage} setInitial={setInitial} isHome={true} />
         <Motion duration="1.25" className={headerText}>
-          <h1 className="text-[14vw] leading-none mx-[12vw] font-bold mb-1 font-karla md:ml-12 md:text-[6.5vw] md:leading-[5.5vw]">
+          <h1 className="text-[14vw] leading-[12.5vw] mx-[12vw] font-bold mb-1 font-karla md:ml-12 md:text-[6.5vw] md:leading-[5.5vw]">
             Nails You Will Love!
           </h1>
-          <p className="font-verdana text-[3.5vw] mx-[20vw] text-dark-gray md:ml-16 md:mr-[16vw] md:text-[1.5vw] md:leading-[2vw]">
+          <p className="font-verdana text-[4vw] mx-[16vw] text-dark-gray md:ml-16 md:mr-[18vw] md:text-[1.5vw] md:leading-[2vw]">
             Providing nail and spa services with the upmost care and
             cleanliness.
           </p>
