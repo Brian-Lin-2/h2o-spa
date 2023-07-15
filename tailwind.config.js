@@ -44,9 +44,9 @@ export default {
         "lounge-desktop": "url('/src/assets/images/lounge.png')",
         "colors-desktop": "url('/src/assets/images/colors.png')",
         nails: "url('/src/assets/images/nails.png')",
-        "place-mobile": "url('/src/assets/images/place-mobile.png')",
-        "lounge-mobile": "url('/src/assets/images/lounge-mobile.png')",
-        "colors-mobile": "url('/src/assets/images/colors-mobile.png')",
+        "place-mobile": "url('/src/assets/images/place-mobile.jpg')",
+        "lounge-mobile": "url('/src/assets/images/lounge-mobile.jpg')",
+        "colors-mobile": "url('/src/assets/images/colors-mobile.jpg')",
       },
       width: {
         mobile: "375px",
