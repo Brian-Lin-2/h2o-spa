@@ -50,7 +50,7 @@ export default function Slider({ setPage, setInitial }) {
           </p>
         </Motion>
 
-        <div className="flex gap-3 justify-center mt-[72vw] pb-8 md:mt-[15vw] md:pb-4">
+        <div className="flex gap-3 justify-center mt-[64vw] pb-8 md:mt-[15vw] md:pb-4">
           {pictures.map((picture, index) => {
             return (
               <SliderButton
