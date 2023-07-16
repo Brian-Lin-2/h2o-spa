@@ -8,7 +8,7 @@ export default function SliderButton({
   index,
 }) {
   let style =
-    "w-5 h-5 border-2 border-black rounded-full cursor-pointer hover:bg-black";
+    "w-5 h-5 border-2 border-black rounded-full cursor-pointer md:hover:bg-black";
 
   if (picture === pictures[currentPic]) {
     style += " bg-black";
