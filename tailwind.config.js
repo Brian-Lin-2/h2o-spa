@@ -43,10 +43,12 @@ export default {
         "place-desktop": "url('/src/assets/images/place.png')",
         "lounge-desktop": "url('/src/assets/images/lounge.png')",
         "colors-desktop": "url('/src/assets/images/colors.png')",
-        nails: "url('/src/assets/images/nails.png')",
         "place-mobile": "url('/src/assets/images/place-mobile.jpg')",
         "lounge-mobile": "url('/src/assets/images/lounge-mobile.jpg')",
         "colors-mobile": "url('/src/assets/images/colors-mobile.jpg')",
+        nails: "url('/src/assets/images/nails.png')",
+        "nails-1": "url('/src/assets/images/nails-1.jpg')",
+        "nails-2": "url('/src/assets/images/nails-2.jpg')",
       },
       width: {
         mobile: "375px",

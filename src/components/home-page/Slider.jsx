@@ -11,6 +11,8 @@ export default function Slider({ setPage, setInitial }) {
     "bg-colors-mobile md:bg-colors-desktop",
     "bg-lounge-mobile md:bg-lounge-desktop",
     "bg-nails",
+    "bg-nails-1 bg-center",
+    "bg-nails-2 bg-center",
   ];
 
   const [currentPic, setCurrentPic] = useState(0);
