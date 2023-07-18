@@ -3,6 +3,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   const [page, setPage] = useState("Home");
@@ -11,15 +12,24 @@ export default function App() {
   const [initial, setInitial] = useState("");
 
   return (
-    <div className="overflow-x-hidden">
-      {page === "Home" && <Home setPage={setPage} setInitial={setInitial} />}
-      {page === "About" && <About setPage={setPage} setInitial={setInitial} />}
-      {page === "Services" && (
-        <Services setPage={setPage} initial={initial} setInitial={setInitial} />
-      )}
-      {page === "Contact" && (
-        <Contact setPage={setPage} setInitial={setInitial} />
-      )}
-    </div>
+    <>
+      <div className="overflow-x-hidden">
+        {page === "Home" && <Home setPage={setPage} setInitial={setInitial} />}
+        {page === "About" && (
+          <About setPage={setPage} setInitial={setInitial} />
+        )}
+        {page === "Services" && (
+          <Services
+            setPage={setPage}
+            initial={initial}
+            setInitial={setInitial}
+          />
+        )}
+        {page === "Contact" && (
+          <Contact setPage={setPage} setInitial={setInitial} />
+        )}
+      </div>
+      <Analytics />
+    </>
   );
 }
