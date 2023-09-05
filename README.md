@@ -5,7 +5,6 @@
 ## Table of contents
 
 - [Overview](#overview)
-- [Website](#website)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -14,10 +13,6 @@
 ## Overview
 
 Created a scalable responsive website for H2O Nail & Spa located at 302 Sunrise Highway Rockville Centre 11570. Features a mobile, tablet, and computer design. Includes an interactive navbar that leads to different pages containing information about the small business.
-
-### Website
-
-- Website: https://h2onails.com
 
 ### Built with
 
