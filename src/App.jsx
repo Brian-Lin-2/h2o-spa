@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <>
-      <h1 className="text-center text-3xl tracking-widest bg-blue-3 py-8 text-white font-bold sticky top-0 w-full z-40">
+      <h1 className="text-center text-xl tracking-widest bg-blue-3 py-8 text-white font-bold sticky top-0 w-full z-40 md:text-3xl">
         SALE: ALL GEL-X 15% OFF NOW UNTIL JULY 4th
       </h1>
       <div className="overflow-x-hidden">
