@@ -13,6 +13,9 @@ export default function App() {
 
   return (
     <>
+      <h1 className="text-center text-3xl tracking-widest bg-blue-3 py-8 text-white font-bold sticky top-0 w-full z-40">
+        SALE: ALL GEL-X 15% OFF NOW UNTIL JULY 4th
+      </h1>
       <div className="overflow-x-hidden">
         {page === "Home" && <Home setPage={setPage} setInitial={setInitial} />}
         {page === "About" && (
